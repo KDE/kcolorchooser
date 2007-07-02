@@ -35,20 +35,18 @@ static const char description[] =
 
 static const char version[] = "v1.0.1";
 
-static KCmdLineOptions options[] =
-{
-   { "print", I18N_NOOP("Print the selected color to stdout"), 0 },
-   KCmdLineLastOption
-};
 	
 int main(int argc, char *argv[])
 {
   KLocale::setMainCatalog("kdelibs"); 
-  KAboutData aboutData( "kcolorchooser", I18N_NOOP("KColorChooser"),
-		version, description, KAboutData::License_BSD,
-		"(c) 2000, Waldo Bastian");
-  aboutData.addAuthor("Waldo Bastian",0, "bastian@kde.org");
+  KAboutData aboutData( "kcolorchooser", 0, ki18n("KColorChooser"),
+		version, ki18n(description), KAboutData::License_BSD,
+		ki18n("(c) 2000, Waldo Bastian"));
+  aboutData.addAuthor(ki18n("Waldo Bastian"),KLocalizedString(), "bastian@kde.org");
   KCmdLineArgs::init( argc, argv, &aboutData );
+
+  KCmdLineOptions options;
+  options.add("print", ki18n("Print the selected color to stdout"));
   KCmdLineArgs::addCmdLineOptions( options );
 
   KApplication app;
