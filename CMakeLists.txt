@@ -2,7 +2,6 @@ project(kcolorchooser)
 
 set(kcolorchooser_SRCS kcolorchooser.cpp )
 
-kde4_automoc(${kcolorchooser_SRCS})
 
 kde4_add_executable(kcolorchooser ${kcolorchooser_SRCS})
 
