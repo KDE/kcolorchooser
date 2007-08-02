@@ -8,6 +8,7 @@ Terminal=false
 DocPath=kcoloredit/index.html
 GenericName=Color Chooser
 GenericName[af]=Kleur Kieser
+GenericName[bg]=KColorChooser
 GenericName[br]=Dibaber livioù
 GenericName[ca]=Elecció de colors
 GenericName[cs]=Výběr barev
