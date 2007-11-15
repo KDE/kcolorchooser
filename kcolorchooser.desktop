@@ -1,9 +1,7 @@
 [Desktop Entry]
-Encoding=UTF-8
 Type=Application
 Exec=kcolorchooser
 Icon=kcolorchooser
-Path=
 Terminal=false
 X-DocPath=kcoloredit/index.html
 GenericName=Color Chooser
