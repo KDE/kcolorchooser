@@ -2,6 +2,7 @@ project(kcolorchooser)
 
 set(kcolorchooser_SRCS kcolorchooser.cpp )
 
+kde4_add_app_icon(kcolorchooser_SRCS "${CMAKE_CURRENT_SOURCE_DIR}/hi*-app-kcolorchooser.png")
 
 kde4_add_executable(kcolorchooser ${kcolorchooser_SRCS})
 
