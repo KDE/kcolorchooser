@@ -38,7 +38,7 @@ static const char version[] = "v1.0.1";
 	
 int main(int argc, char *argv[])
 {
-  KAboutData aboutData( "kcolorchooser", "kdelibs4", ki18n("KColorChooser"),
+  KAboutData aboutData("kcolorchooser", 0, ki18n("KColorChooser"),
 		version, ki18n(description), KAboutData::License_BSD,
 		ki18n("(c) 2000, Waldo Bastian"));
   aboutData.addAuthor(ki18n("Waldo Bastian"),KLocalizedString(), "bastian@kde.org");
