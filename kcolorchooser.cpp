@@ -30,6 +30,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #include <kcolordialog.h>
 #include <kcolormimedata.h>
+#include <khelpmenu.h>
+
 #include <QtGui/QClipboard>
 
 static const char description[] =
@@ -44,6 +46,7 @@ int main(int argc, char *argv[])
 		version, ki18n(description), KAboutData::License_BSD,
 		ki18n("(c) 2000, Waldo Bastian"));
   aboutData.addAuthor(ki18n("Waldo Bastian"),KLocalizedString(), "bastian@kde.org");
+  aboutData.setProductName("kdelibs/kdeui");
   KCmdLineArgs::init( argc, argv, &aboutData );
 
   KCmdLineOptions options;
@@ -55,6 +58,8 @@ int main(int argc, char *argv[])
   
   KColorDialog dlg;
 
+  KHelpMenu *help = new KHelpMenu(&dlg, &aboutData);
+
   QColor color = KColorMimeData::fromMimeData( QApplication::clipboard()->mimeData( QClipboard::Clipboard ));
   if (!color.isValid()) {
     color = Qt::blue; // Just a color
@@ -65,6 +70,8 @@ int main(int argc, char *argv[])
     if (c.isValid())
       color = c;
   }
+  dlg.setButtons(KDialog::Help | KDialog::Close);
+  dlg.setButtonMenu(KDialog::Help, (QMenu *)(help->menu()));
   dlg.setColor(color);
 
   app.connect(&dlg, SIGNAL(finished()), SLOT(quit()));
