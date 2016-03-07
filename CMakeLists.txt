@@ -1,25 +1,41 @@
-cmake_minimum_required(VERSION 2.8.9)
+cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
+if(POLICY CMP0063)
+  cmake_policy(SET CMP0063 NEW)
+endif()
+
 project(kcolorchooser)
 
-# search packages used by KDE
-find_package(KDE4 REQUIRED)
-include(KDE4Defaults)
-include(MacroLibrary)
-include(MacroOptionalAddSubdirectory)
+set (QT_MIN_VERSION "5.2.0")
 
-add_definitions (${QT_DEFINITIONS} ${QT_QTDBUS_DEFINITIONS} ${KDE4_DEFINITIONS})
-include_directories (${QDBUS_INCLUDE_DIRS} ${CMAKE_SOURCE_DIR} ${CMAKE_BINARY_DIR} ${KDE4_INCLUDES})
+find_package(ECM 1.7.0 REQUIRED NO_MODULE)
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
+
+include(ECMInstallIcons)
+include(ECMAddAppIcon)
+include(KDEInstallDirs)
+include(KDECompilerSettings)
+include(KDECMakeSettings)
+
+find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
+  Core
+  Gui
+  Widgets)
+find_package(KF5 REQUIRED COMPONENTS
+  I18n
+  WidgetsAddons
+  XmlGui)
 
 set(kcolorchooser_SRCS kcolorchooser.cpp )
 
-kde4_add_app_icon(kcolorchooser_SRCS "${CMAKE_CURRENT_SOURCE_DIR}/hi*-app-kcolorchooser.png")
+add_executable(kcolorchooser ${kcolorchooser_SRCS})
 
-kde4_add_executable(kcolorchooser ${kcolorchooser_SRCS})
+target_link_libraries(kcolorchooser Qt5::Gui KF5::I18n KF5::WidgetsAddons KF5::XmlGui)
 
-target_link_libraries(kcolorchooser ${KDE4_KDEUI_LIBS})
+install(TARGETS kcolorchooser  ${INSTALL_TARGETS_DEFAULT_ARGS})
+install(PROGRAMS kcolorchooser.desktop DESTINATION  ${XDG_APPS_INSTALL_DIR})
 
-install(TARGETS kcolorchooser  ${INSTALL_TARGETS_DEFAULT_ARGS} )
-install( PROGRAMS kcolorchooser.desktop  DESTINATION  ${XDG_APPS_INSTALL_DIR} )
-
-kde4_install_icons( ${ICON_INSTALL_DIR}   )
-
+ecm_install_icons(ICONS
+  16-apps-kcolorchooser.png
+  22-apps-kcolorchooser.png
+  DESTINATION ${KDE_INSTALL_ICONDIR}
+  THEME hicolor)

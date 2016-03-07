@@ -23,65 +23,82 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #include <iostream>
 
-#include <kapplication.h>
-#include <kcmdlineargs.h>
-#include <kaboutdata.h>
-#include <klocale.h>
+#include <QApplication>
+#include <QClipboard>
+#include <QColorDialog>
+#include <QCommandLineParser>
+#include <QDialogButtonBox>
+#include <QMenu>
+#include <QMimeData>
+#include <QPushButton>
+#include <QDebug>
 
-#include <kcolordialog.h>
-#include <kcolormimedata.h>
-#include <khelpmenu.h>
-
-#include <QtGui/QClipboard>
+#include <KAboutData>
+#include <KLocalizedString>
+#include <KHelpMenu>
 
 static const char description[] =
 	I18N_NOOP("KDE Color Chooser");
 
-static const char version[] = "v1.0.1";
+static const char version[] = "v2.0.0";
 
 	
 int main(int argc, char *argv[])
 {
-  KAboutData aboutData("kcolorchooser", 0, ki18n("KColorChooser"),
-		version, ki18n(description), KAboutData::License_BSD,
-		ki18n("(c) 2000, Waldo Bastian"));
-  aboutData.addAuthor(ki18n("Waldo Bastian"),KLocalizedString(), "bastian@kde.org");
+  QApplication app(argc, argv);
+
+  KAboutData aboutData("kcolorchooser", i18n("KColorChooser"),
+                version, i18n(description), KAboutLicense::BSDL,
+                i18n("(c) 2000, Waldo Bastian"));
+  aboutData.addAuthor(i18n("Waldo Bastian"), QString(), "bastian@kde.org");
+  aboutData.addAuthor(i18n("Hugo Parente Lima"),i18n("KF5 port"), "hugo.pl@gmail.com");
+  aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
   aboutData.setProductName("kdelibs/kdeui");
-  KCmdLineArgs::init( argc, argv, &aboutData );
+  KLocalizedString::setApplicationDomain("kcolorchooser");
+  KAboutData::setApplicationData(aboutData);
 
-  KCmdLineOptions options;
-  options.add("print", ki18n("Print the selected color to stdout"));
-  options.add("color <color>", ki18n("Set initially selected color"));
-  KCmdLineArgs::addCmdLineOptions( options );
 
-  KApplication app;
-  
-  KColorDialog dlg;
+  QCommandLineParser parser;
+  parser.setSingleDashWordOptionMode(QCommandLineParser::ParseAsLongOptions);
+  aboutData.setupCommandLine(&parser);
+  QCommandLineOption print("print", i18n("Print the selected color to stdout."));
+  parser.addOption(print);
+  QCommandLineOption color("color", i18n("Set initially selected color."), "color");
+  parser.addOption(color);
+  parser.process(app);
 
-  KHelpMenu *help = new KHelpMenu(&dlg, &aboutData);
 
-  QColor color = KColorMimeData::fromMimeData( QApplication::clipboard()->mimeData( QClipboard::Clipboard ));
-  if (!color.isValid()) {
-    color = Qt::blue; // Just a color
+  QColorDialog dlg;
+  QDialogButtonBox *box = dlg.findChild<QDialogButtonBox*>();
+  if (!box)
+      return 1;
+
+  box->addButton(QDialogButtonBox::Help);
+
+  KHelpMenu *help = new KHelpMenu(&dlg, aboutData);
+  QObject::connect(box, &QDialogButtonBox::helpRequested, [=] () {
+      QPushButton *button = box->button(QDialogButtonBox::Help);
+      QPoint pos = button->pos();
+      pos.ry() += button->height();
+      pos = box->mapToGlobal(pos);
+      help->menu()->exec(pos);
+  });
+
+  if (parser.isSet(color)) {
+      dlg.setCurrentColor(QColor(parser.value(color)));
+  } else {
+      const QMimeData* mimeData = QApplication::clipboard()->mimeData(QClipboard::Clipboard);
+      QColor clipboardColor = mimeData->colorData().value<QColor>();
+      if (clipboardColor.isValid()) {
+          dlg.setCurrentColor(clipboardColor);
+      }
   }
-  KCmdLineArgs *args = KCmdLineArgs::parsedArgs();
-  if (args->isSet("color")) {
-    QColor c = QColor(args->getOption("color"));
-    if (c.isValid())
-      color = c;
-  }
-  dlg.setButtons(KDialog::Help | KDialog::Close);
-  dlg.setButtonMenu(KDialog::Help, (QMenu *)(help->menu()));
-  dlg.setColor(color);
-
-  app.connect(&dlg, SIGNAL(finished()), SLOT(quit()));
 
   dlg.show();
   app.exec();
 
-  const  QColor c = dlg.color();
-  if ( args->isSet("print") && c.isValid() ) {
+  const  QColor c = dlg.currentColor();
+  if (parser.isSet(print) && c.isValid()) {
       std::cout << c.name().toUtf8().constData() << std::endl;
   }
-  args->clear();
 }  
