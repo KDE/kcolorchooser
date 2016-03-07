@@ -66,6 +66,7 @@ int main(int argc, char *argv[])
   QCommandLineOption color("color", i18n("Set initially selected color."), "color");
   parser.addOption(color);
   parser.process(app);
+  aboutData.processCommandLine(&parser);
 
 
   QColorDialog dlg;
