@@ -22,14 +22,13 @@ find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
   Widgets)
 find_package(KF5 REQUIRED COMPONENTS
   I18n
-  WidgetsAddons
   XmlGui)
 
 set(kcolorchooser_SRCS kcolorchooser.cpp )
 
 add_executable(kcolorchooser ${kcolorchooser_SRCS})
 
-target_link_libraries(kcolorchooser Qt5::Gui KF5::I18n KF5::WidgetsAddons KF5::XmlGui)
+target_link_libraries(kcolorchooser Qt5::Gui KF5::I18n KF5::XmlGui)
 
 install(TARGETS kcolorchooser  ${INSTALL_TARGETS_DEFAULT_ARGS})
 install(PROGRAMS kcolorchooser.desktop DESTINATION  ${XDG_APPS_INSTALL_DIR})
