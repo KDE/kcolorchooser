@@ -70,6 +70,7 @@ int main(int argc, char *argv[])
 
 
   QColorDialog dlg;
+  dlg.setOption(QColorDialog::DontUseNativeDialog);
   QDialogButtonBox *box = dlg.findChild<QDialogButtonBox*>();
   if (!box)
       return 1;
