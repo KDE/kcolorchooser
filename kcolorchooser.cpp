@@ -90,9 +90,11 @@ int main(int argc, char *argv[])
       dlg.setCurrentColor(QColor(parser.value(color)));
   } else {
       const QMimeData* mimeData = QApplication::clipboard()->mimeData(QClipboard::Clipboard);
-      QColor clipboardColor = mimeData->colorData().value<QColor>();
-      if (clipboardColor.isValid()) {
-          dlg.setCurrentColor(clipboardColor);
+      if (mimeData) {
+          QColor clipboardColor = mimeData->colorData().value<QColor>();
+          if (clipboardColor.isValid()) {
+              dlg.setCurrentColor(clipboardColor);
+          }
       }
   }
 
