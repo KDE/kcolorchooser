@@ -46,7 +46,7 @@ static const char version[] = "v2.0.0";
 int main(int argc, char *argv[])
 {
   QApplication app(argc, argv);
-
+  KLocalizedString::setApplicationDomain("kcolorchooser");
   KAboutData aboutData("kcolorchooser", i18n("KColorChooser"),
                 version, i18n(description), KAboutLicense::BSDL,
                 i18n("(c) 2000, Waldo Bastian"));
@@ -54,7 +54,6 @@ int main(int argc, char *argv[])
   aboutData.addAuthor(i18n("Hugo Parente Lima"),i18n("KF5 port"), "hugo.pl@gmail.com");
   aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
   aboutData.setProductName("kdelibs/kdeui");
-  KLocalizedString::setApplicationDomain("kcolorchooser");
   KAboutData::setApplicationData(aboutData);
 
 
