@@ -155,5 +155,5 @@ Name[x-test]=xxKColorChooserxx
 Name[zh_CN]=KColorChooser
 Name[zh_HK]=KColorChooser
 Name[zh_TW]=KColorChooser 顏色選擇器
-
+Comment=Color selector and palette editor
 Categories=Qt;KDE;Graphics;X-KDE-More;
