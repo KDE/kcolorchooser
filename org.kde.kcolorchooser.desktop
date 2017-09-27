@@ -177,4 +177,5 @@ Comment[sv]=Färgväljare och paletteditor
 Comment[uk]=Програма для вибору кольору і редагування палітр
 Comment[x-test]=xxColor selector and palette editorxx
 Comment[zh_CN]=取色器和配色编辑器
+Comment[zh_TW]=顏色選擇器與調色盤編輯器
 Categories=Qt;KDE;Graphics;X-KDE-More;
