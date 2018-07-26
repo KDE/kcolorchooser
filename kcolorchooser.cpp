@@ -47,11 +47,11 @@ int main(int argc, char *argv[])
 {
   QApplication app(argc, argv);
   KLocalizedString::setApplicationDomain("kcolorchooser");
-  KAboutData aboutData("kcolorchooser", i18n("KColorChooser"),
-                version, i18n(description), KAboutLicense::BSDL,
+  KAboutData aboutData(QStringLiteral("kcolorchooser"), i18n("KColorChooser"),
+                QString::fromLatin1(version), i18n(description), KAboutLicense::BSDL,
                 i18n("(c) 2000, Waldo Bastian"));
-  aboutData.addAuthor(i18n("Waldo Bastian"), QString(), "bastian@kde.org");
-  aboutData.addAuthor(i18n("Hugo Parente Lima"),i18n("KF5 port"), "hugo.pl@gmail.com");
+  aboutData.addAuthor(i18n("Waldo Bastian"), QString(), QStringLiteral("bastian@kde.org"));
+  aboutData.addAuthor(i18n("Hugo Parente Lima"),i18n("KF5 port"), QStringLiteral("hugo.pl@gmail.com"));
   aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
   aboutData.setProductName("kdelibs/kdeui");
   KAboutData::setApplicationData(aboutData);
@@ -60,9 +60,9 @@ int main(int argc, char *argv[])
   QCommandLineParser parser;
   parser.setSingleDashWordOptionMode(QCommandLineParser::ParseAsLongOptions);
   aboutData.setupCommandLine(&parser);
-  QCommandLineOption print("print", i18n("Print the selected color to stdout."));
+  QCommandLineOption print(QStringLiteral("print"), i18n("Print the selected color to stdout."));
   parser.addOption(print);
-  QCommandLineOption color("color", i18n("Set initially selected color."), "color");
+  QCommandLineOption color(QStringLiteral("color"), i18n("Set initially selected color."), QStringLiteral("color"));
   parser.addOption(color);
   parser.process(app);
   aboutData.processCommandLine(&parser);
