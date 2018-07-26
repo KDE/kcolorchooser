@@ -53,7 +53,6 @@ int main(int argc, char *argv[])
   aboutData.addAuthor(i18n("Waldo Bastian"), QString(), QStringLiteral("bastian@kde.org"));
   aboutData.addAuthor(i18n("Hugo Parente Lima"),i18n("KF5 port"), QStringLiteral("hugo.pl@gmail.com"));
   aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
-  aboutData.setProductName("kdelibs/kdeui");
   KAboutData::setApplicationData(aboutData);
 
 
