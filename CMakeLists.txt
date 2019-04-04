@@ -42,3 +42,5 @@ ecm_install_icons(ICONS
   22-apps-kcolorchooser.png
   DESTINATION ${KDE_INSTALL_ICONDIR}
   THEME hicolor)
+
+install(FILES org.kde.kcolorchooser.appdata.xml  DESTINATION  ${KDE_INSTALL_METAINFODIR})

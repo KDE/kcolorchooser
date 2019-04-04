@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop">
+  <id>org.kde.kcolorchooser.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>KColorChooser</name>
+  <summary>Color selector and palette editor</summary>
+  <description>
+    <p>
+        KColorChooser is a color palette tool, used to mix colors and create custom
+        color palettes.  Using the dropper, it can obtain the color of any pixel on
+        the screen.
+        .
+        A number of common color palettes are included, such as the standard Web colors
+        and the Oxygen color scheme.
+    </p>
+  </description>
+  <url type="homepage">https://kde.org/applications/graphics/kcolorchooser/</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kcolorchooser</url>
+  <url type="donation">https://www.kde.org/community/donations/?app=kcolorchooser&amp;source=appdata</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://cdn.kde.org/screenshots/kcolorchooser/kcolorchooser.png</image>
+    </screenshot>
+  </screenshots>
+  <project_group>KDE</project_group>
+  <provides>
+    <binary>kcolorchooser</binary>
+  </provides>
+  <launchable type="desktop-id">org.kde.kcolorchooser.desktop</launchable>
+</component>
