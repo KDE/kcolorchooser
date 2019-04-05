@@ -9,9 +9,7 @@
     <p>
         KColorChooser is a color palette tool, used to mix colors and create custom
         color palettes.  Using the dropper, it can obtain the color of any pixel on
-        the screen.
-        .
-        A number of common color palettes are included, such as the standard Web colors
+        the screen. A number of common color palettes are included, such as the standard Web colors
         and the Oxygen color scheme.
     </p>
   </description>
