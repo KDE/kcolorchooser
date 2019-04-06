@@ -4,7 +4,13 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <name>KColorChooser</name>
+  <name xml:lang="ca">KColorChooser</name>
+  <name xml:lang="uk">KColorChooser</name>
+  <name xml:lang="x-test">xxKColorChooserxx</name>
   <summary>Color selector and palette editor</summary>
+  <summary xml:lang="ca">Selector de color i editor de la paleta</summary>
+  <summary xml:lang="uk">Засіб вибору кольорів та редактор палітр</summary>
+  <summary xml:lang="x-test">xxColor selector and palette editorxx</summary>
   <description>
     <p>
         KColorChooser is a color palette tool, used to mix colors and create custom
@@ -12,6 +18,7 @@
         the screen. A number of common color palettes are included, such as the standard Web colors
         and the Oxygen color scheme.
     </p>
+    <p xml:lang="uk">KColorChooser — інструмент для роботи з палітрами, яким можна скористатися для змішування кольорів і створення нетипових палітр кольорів. За допомогою піпетки програма може отримувати колір з будь-якого пікселя екрана. До складу пакунка включено декілька типових палітр, зокрема стандартні кольори інтернету та кольори теми Oxygen.</p>
   </description>
   <url type="homepage">https://kde.org/applications/graphics/kcolorchooser/</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kcolorchooser</url>
