@@ -19,6 +19,7 @@
   <name xml:lang="sv">Färgväljare</name>
   <name xml:lang="uk">KColorChooser</name>
   <name xml:lang="x-test">xxKColorChooserxx</name>
+  <name xml:lang="zh-TW">KColorChooser</name>
   <summary>Color selector and palette editor</summary>
   <summary xml:lang="ca">Selector de color i editor de la paleta</summary>
   <summary xml:lang="ca-valencia">Selector de color i editor de la paleta</summary>
@@ -34,6 +35,7 @@
   <summary xml:lang="sv">Färgväljare och paletteditor</summary>
   <summary xml:lang="uk">Засіб вибору кольорів та редактор палітр</summary>
   <summary xml:lang="x-test">xxColor selector and palette editorxx</summary>
+  <summary xml:lang="zh-TW">顏色選取器及調色盤編輯器</summary>
   <description>
     <p>
         KColorChooser is a color palette tool, used to mix colors and create custom
