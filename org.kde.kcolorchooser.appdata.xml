@@ -6,6 +6,7 @@
   <name>KColorChooser</name>
   <name xml:lang="ca">KColorChooser</name>
   <name xml:lang="ca-valencia">KColorChooser</name>
+  <name xml:lang="cs">Výběr barev</name>
   <name xml:lang="en-GB">KColorChooser</name>
   <name xml:lang="es">KColorChooser</name>
   <name xml:lang="fr">KColorChooser</name>
@@ -22,6 +23,7 @@
   <summary>Color selector and palette editor</summary>
   <summary xml:lang="ca">Selector de color i editor de la paleta</summary>
   <summary xml:lang="ca-valencia">Selector de color i editor de la paleta</summary>
+  <summary xml:lang="cs">Výběr barev a editor palety barev</summary>
   <summary xml:lang="en-GB">Colour selector and palette editor</summary>
   <summary xml:lang="es">Selector de colores y editor de paletas</summary>
   <summary xml:lang="fr">Sélecteur de couleurs et éditeur de palettes</summary>
