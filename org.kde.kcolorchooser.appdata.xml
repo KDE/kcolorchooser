@@ -16,6 +16,7 @@
   <name xml:lang="nl">KColorChooser</name>
   <name xml:lang="nn">KColorChooser</name>
   <name xml:lang="pt">KColorChooser</name>
+  <name xml:lang="pt-BR">KColorChooser</name>
   <name xml:lang="sk">KColorChooser</name>
   <name xml:lang="sv">Färgväljare</name>
   <name xml:lang="uk">KColorChooser</name>
@@ -34,6 +35,7 @@
   <summary xml:lang="nl">Kleurenkiezer en paletbewerker</summary>
   <summary xml:lang="nn">Fargeveljar og palettredigerar</summary>
   <summary xml:lang="pt">Selector de cores e editor de paletas</summary>
+  <summary xml:lang="pt-BR">Seletor de cores e editor de paleta</summary>
   <summary xml:lang="sk">Výber farby a editor palety</summary>
   <summary xml:lang="sv">Färgväljare och paletteditor</summary>
   <summary xml:lang="uk">Засіб вибору кольорів та редактор палітр</summary>
