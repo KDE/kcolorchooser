@@ -37,10 +37,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <KLocalizedString>
 #include <KHelpMenu>
 
+#include "kcolorchooser_version.h"
+
 static const char description[] =
 	I18N_NOOP("KDE Color Chooser");
-
-static const char version[] = "v2.0.0";
 
 	
 int main(int argc, char *argv[])
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
   QApplication app(argc, argv);
   KLocalizedString::setApplicationDomain("kcolorchooser");
   KAboutData aboutData(QStringLiteral("kcolorchooser"), i18n("KColorChooser"),
-                QString::fromLatin1(version), i18n(description), KAboutLicense::BSDL,
+                QStringLiteral(KCOLORCHOOSER_VERSION_STRING), i18n(description), KAboutLicense::BSDL,
                 i18n("(c) 2000, Waldo Bastian"));
   aboutData.addAuthor(i18n("Waldo Bastian"), QString(), QStringLiteral("bastian@kde.org"));
   aboutData.addAuthor(i18n("Hugo Parente Lima"),i18n("KF5 port"), QStringLiteral("hugo.pl@gmail.com"));

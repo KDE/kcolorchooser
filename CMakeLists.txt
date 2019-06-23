@@ -1,9 +1,12 @@
-cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
-if(POLICY CMP0063)
-  cmake_policy(SET CMP0063 NEW)
-endif()
+cmake_minimum_required (VERSION 3.5 FATAL_ERROR)
 
-project(kcolorchooser)
+# KDE Application Version, managed by release script
+set(KDE_APPLICATIONS_VERSION_MAJOR "19")
+set(KDE_APPLICATIONS_VERSION_MINOR "07")
+set(KDE_APPLICATIONS_VERSION_MICRO "70")
+set(KDE_APPLICATIONS_VERSION "${KDE_APPLICATIONS_VERSION_MAJOR}.${KDE_APPLICATIONS_VERSION_MINOR}.${KDE_APPLICATIONS_VERSION_MICRO}")
+
+project(kcolorchooser VERSION ${KDE_APPLICATIONS_VERSION})
 
 set(QT_MIN_VERSION     "5.7.0")
 set(KF5_MIN_VERSION    "5.30.0")
@@ -16,6 +19,7 @@ include(ECMAddAppIcon)
 include(KDEInstallDirs)
 include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(KDECMakeSettings)
+include(ECMSetupVersion)
 
 find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
   Core
@@ -27,6 +31,8 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x060000)
+
+ecm_setup_version(${KDE_APPLICATIONS_VERSION} VARIABLE_PREFIX KCOLORCHOOSER VERSION_HEADER kcolorchooser_version.h)
 
 set(kcolorchooser_SRCS kcolorchooser.cpp )
 
