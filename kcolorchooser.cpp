@@ -31,7 +31,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <QMenu>
 #include <QMimeData>
 #include <QPushButton>
-#include <QDebug>
 
 #include <KAboutData>
 #include <KLocalizedString>
