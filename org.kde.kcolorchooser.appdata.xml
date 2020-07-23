@@ -7,6 +7,7 @@
   <name xml:lang="ca">KColorChooser</name>
   <name xml:lang="ca-valencia">KColorChooser</name>
   <name xml:lang="cs">Výběr barev</name>
+  <name xml:lang="da">KColorChooser</name>
   <name xml:lang="de">KColorChooser</name>
   <name xml:lang="el">KColorChooser</name>
   <name xml:lang="en-GB">KColorChooser</name>
@@ -37,6 +38,7 @@
   <summary xml:lang="ca">Selector de color i editor de la paleta</summary>
   <summary xml:lang="ca-valencia">Selector de color i editor de la paleta</summary>
   <summary xml:lang="cs">Výběr barev a editor palety barev</summary>
+  <summary xml:lang="da">Farvevælger og paletteeditor</summary>
   <summary xml:lang="de">Farbauswahl und Farbpaletten-Editor</summary>
   <summary xml:lang="el">Επιλογέας χρωμάτων και επεξεργαστής παλέτας</summary>
   <summary xml:lang="en-GB">Colour selector and palette editor</summary>
@@ -72,6 +74,7 @@
     </p>
     <p xml:lang="ca">El KColorChooser és una eina de paleta de colors, usada per a barrejar colors i crear paletes de color personalitzades. Usant el deixar anar, podreu obtenir el color de qualsevol píxel de la pantalla. S'inclouen diverses paletes de color normals, com els colors Web estàndard i l'esquema de color Oxygen.</p>
     <p xml:lang="ca-valencia">El KColorChooser és una eina de paleta de colors, usada per a barrejar colors i crear paletes de color personalitzades. Usant el deixar anar, podreu obtindre el color de qualsevol píxel de la pantalla. S'inclouen diverses paletes de color normals, com els colors Web estàndard i l'esquema de color Oxygen.</p>
+    <p xml:lang="da">KColorChooser er et farvepaletværktøj, der bruges til at blande farver og oprette brugertilpassede farvepaletter. Med brug af dropperen kan det hente farven på enhver pixel på skærmen. Et antal almindelige farvepaletter er inkluderet, såsom standard webfarver og Oxygen farvetemaet.</p>
     <p xml:lang="de">KColorChooser ist ein Farbpalettenwerkzeug, mit dem Sie Farben mischen und eigene Farbpaletten erstellen können. Mit Hilfe der Pipette können Sie die Farbe eines beliebigen Pixels auf dem Bildschirm erhalten. Eine Reihe von gängigen Farbpaletten sind enthalten, wie z.B. die Standard-Webfarben und das Oxygen-Farbschema.</p>
     <p xml:lang="el">Το KColorChooser είναι ένα εργαλείο παλέτας χρωμάτων για την ανάμιξη χρωμάτων και τη δημιουργία προσαρμοσμένων παλετών. Με χρήση του αποθέτη μπορεί να ανακτήσει το χρώμα οποιουδήποτε εικονοστοιχείου στην οθόνη. Περιλαμβάνεται ένας αριθμός παλετών κοινών χρωμάτων, όπως τα τυπικά χρώματα ιστού και το χρωματικό σχήμα του Oxygen.</p>
     <p xml:lang="en-GB">KColorChooser is a colour palette tool, used to mix colours and create custom colour palettes. Using the dropper, it can obtain the colour of any pixel on the screen. A number of common colour palettes are included, such as the standard Web colours and the Oxygen colour scheme.</p>
