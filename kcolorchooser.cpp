@@ -44,6 +44,8 @@ static const char description[] =
 	
 int main(int argc, char *argv[])
 {
+  QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling, true);
+  QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
   QApplication app(argc, argv);
   KLocalizedString::setApplicationDomain("kcolorchooser");
   KAboutData aboutData(QStringLiteral("kcolorchooser"), i18n("KColorChooser"),
@@ -53,7 +55,6 @@ int main(int argc, char *argv[])
   aboutData.addAuthor(i18n("Hugo Parente Lima"),i18n("KF5 port"), QStringLiteral("hugo.pl@gmail.com"));
   aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
   KAboutData::setApplicationData(aboutData);
-
 
   QCommandLineParser parser;
   parser.setSingleDashWordOptionMode(QCommandLineParser::ParseAsLongOptions);
