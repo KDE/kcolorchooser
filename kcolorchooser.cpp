@@ -21,7 +21,11 @@ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#include <iostream>
+#include "kcolorchooser_version.h"
+
+#include <KAboutData>
+#include <KLocalizedString>
+#include <KHelpMenu>
 
 #include <QApplication>
 #include <QClipboard>
@@ -32,75 +36,74 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <QMimeData>
 #include <QPushButton>
 
-#include <KAboutData>
-#include <KLocalizedString>
-#include <KHelpMenu>
+#include <iostream>
 
-#include "kcolorchooser_version.h"
+static const char description[] = I18N_NOOP("KDE Color Chooser");
 
-static const char description[] =
-	I18N_NOOP("KDE Color Chooser");
-
-	
 int main(int argc, char *argv[])
 {
-  QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling, true);
-  QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
-  QApplication app(argc, argv);
-  KLocalizedString::setApplicationDomain("kcolorchooser");
-  KAboutData aboutData(QStringLiteral("kcolorchooser"), i18n("KColorChooser"),
-                QStringLiteral(KCOLORCHOOSER_VERSION_STRING), i18n(description), KAboutLicense::BSDL,
-                i18n("(c) 2000, Waldo Bastian"));
-  aboutData.addAuthor(i18n("Waldo Bastian"), QString(), QStringLiteral("bastian@kde.org"));
-  aboutData.addAuthor(i18n("Hugo Parente Lima"),i18n("KF5 port"), QStringLiteral("hugo.pl@gmail.com"));
-  aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
-  KAboutData::setApplicationData(aboutData);
+    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling, true);
+    QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
+    QApplication app(argc, argv);
 
-  QCommandLineParser parser;
-  parser.setSingleDashWordOptionMode(QCommandLineParser::ParseAsLongOptions);
-  aboutData.setupCommandLine(&parser);
-  QCommandLineOption print(QStringLiteral("print"), i18n("Print the selected color to stdout."));
-  parser.addOption(print);
-  QCommandLineOption color(QStringLiteral("color"), i18n("Set initially selected color."), QStringLiteral("color"));
-  parser.addOption(color);
-  parser.process(app);
-  aboutData.processCommandLine(&parser);
+    KLocalizedString::setApplicationDomain("kcolorchooser");
 
+    KAboutData aboutData(QStringLiteral("kcolorchooser"),
+                         i18n("KColorChooser"),
+                         QStringLiteral(KCOLORCHOOSER_VERSION_STRING),
+                         i18n(description),
+                         KAboutLicense::BSDL,
+                         i18n("(c) 2000, Waldo Bastian"));
+    aboutData.addAuthor(i18n("Waldo Bastian"), QString(), QStringLiteral("bastian@kde.org"));
+    aboutData.addAuthor(i18n("Hugo Parente Lima"),i18n("KF5 port"), QStringLiteral("hugo.pl@gmail.com"));
+    aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
+    KAboutData::setApplicationData(aboutData);
 
-  QColorDialog dlg;
-  dlg.setOption(QColorDialog::DontUseNativeDialog);
-  QDialogButtonBox *box = dlg.findChild<QDialogButtonBox*>();
-  if (!box)
-      return 1;
+    QCommandLineParser parser;
+    parser.setSingleDashWordOptionMode(QCommandLineParser::ParseAsLongOptions);
+    aboutData.setupCommandLine(&parser);
+    QCommandLineOption print(QStringLiteral("print"), i18n("Print the selected color to stdout."));
+    parser.addOption(print);
+    QCommandLineOption color(QStringLiteral("color"), i18n("Set initially selected color."), QStringLiteral("color"));
+    parser.addOption(color);
+    parser.process(app);
+    aboutData.processCommandLine(&parser);
 
-  box->addButton(QDialogButtonBox::Help);
+    QColorDialog dlg;
+    dlg.setOption(QColorDialog::DontUseNativeDialog);
+    QDialogButtonBox *box = dlg.findChild<QDialogButtonBox*>();
+    if (!box) {
+        return 1;
+    }
 
-  KHelpMenu *help = new KHelpMenu(&dlg, aboutData);
-  QObject::connect(box, &QDialogButtonBox::helpRequested, [=] () {
-      QPushButton *button = box->button(QDialogButtonBox::Help);
-      QPoint pos = button->pos();
-      pos.ry() += button->height();
-      pos = box->mapToGlobal(pos);
-      help->menu()->exec(pos);
-  });
+    box->addButton(QDialogButtonBox::Help);
 
-  if (parser.isSet(color)) {
-      dlg.setCurrentColor(QColor(parser.value(color)));
-  } else {
-      const QMimeData* mimeData = QApplication::clipboard()->mimeData(QClipboard::Clipboard);
-      if (mimeData) {
-          QColor clipboardColor = mimeData->colorData().value<QColor>();
-          if (clipboardColor.isValid()) {
-              dlg.setCurrentColor(clipboardColor);
-          }
-      }
-  }
+    KHelpMenu *help = new KHelpMenu(&dlg, aboutData);
+    QObject::connect(box, &QDialogButtonBox::helpRequested, [=] () {
+        QPushButton *button = box->button(QDialogButtonBox::Help);
+        QPoint pos = button->pos();
+        pos.ry() += button->height();
+        pos = box->mapToGlobal(pos);
+        help->menu()->exec(pos);
+    });
 
-  dlg.show();
-  app.exec();
+    if (parser.isSet(color)) {
+        dlg.setCurrentColor(QColor(parser.value(color)));
+    } else {
+        const QMimeData *mimeData = QApplication::clipboard()->mimeData(QClipboard::Clipboard);
+        if (mimeData) {
+            QColor clipboardColor = mimeData->colorData().value<QColor>();
+            if (clipboardColor.isValid()) {
+                dlg.setCurrentColor(clipboardColor);
+            }
+        }
+    }
 
-  const  QColor c = dlg.currentColor();
-  if (parser.isSet(print) && c.isValid()) {
-      std::cout << c.name().toUtf8().constData() << std::endl;
-  }
-}  
+    dlg.show();
+    app.exec();
+
+    const  QColor c = dlg.currentColor();
+    if (parser.isSet(print) && c.isValid()) {
+        std::cout << c.name().toUtf8().constData() << std::endl;
+    }
+}
