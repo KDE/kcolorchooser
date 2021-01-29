@@ -45,7 +45,7 @@ add_executable(kcolorchooser ${kcolorchooser_SRCS})
 
 target_link_libraries(kcolorchooser Qt5::Gui KF5::I18n KF5::XmlGui)
 
-install(TARGETS kcolorchooser  ${INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS kcolorchooser  ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 install(PROGRAMS org.kde.kcolorchooser.desktop DESTINATION  ${XDG_APPS_INSTALL_DIR})
 
 ecm_install_icons(ICONS
