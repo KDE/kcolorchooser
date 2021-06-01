@@ -12,7 +12,6 @@
 *.user
 .*.swp
 .swp.*
-Doxyfile
 Makefile
 avail
 random_seed
@@ -20,3 +19,4 @@ random_seed
 CMakeLists.txt.user*
 *.unc-backup*
 .cmake/
+.clang-format
