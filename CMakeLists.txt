@@ -38,7 +38,7 @@ add_executable(kcolorchooser)
 target_sources(kcolorchooser PRIVATE kcolorchooser.cpp )
 
 
-target_link_libraries(kcolorchooser Qt5::Gui KF5::I18n KF5::XmlGui)
+target_link_libraries(kcolorchooser Qt::Gui KF5::I18n KF5::XmlGui)
 
 install(TARGETS kcolorchooser  ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 install(PROGRAMS org.kde.kcolorchooser.desktop DESTINATION  ${XDG_APPS_INSTALL_DIR})
