@@ -4,6 +4,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <name>KColorChooser</name>
+  <name xml:lang="ar">مختار اللون لكدي</name>
   <name xml:lang="az">KColorChooser</name>
   <name xml:lang="ca">KColorChooser</name>
   <name xml:lang="ca-valencia">KColorChooser</name>
@@ -39,6 +40,7 @@
   <name xml:lang="zh-CN">KColorChooser</name>
   <name xml:lang="zh-TW">KColorChooser</name>
   <summary>Color selector and palette editor</summary>
+  <summary xml:lang="ar">محدد اللون ومحرر لوح الألوان</summary>
   <summary xml:lang="az">Rəng seçici və palitra redaktoru</summary>
   <summary xml:lang="ca">Selector de color i editor de la paleta</summary>
   <summary xml:lang="ca-valencia">Selector de color i editor de la paleta</summary>
@@ -80,6 +82,7 @@
         the screen. A number of common color palettes are included, such as the standard Web colors
         and the Oxygen color scheme.
     </p>
+    <p xml:lang="ar">مختار اللون لكدي هي أداة لوحة ألوان، تُستخدم لمزج الألوان وإنشاء لوحات ألوان مخصصة. باستخدام القطارة يمكن الحصول على لون أي بكسل على الشاشة. يحوي البرنامج على عدد من لوحات الألوان الشائعة مثل ألوان الويب القياسية ونظام ألوان أكسجين.</p>
     <p xml:lang="az">KColorChooser rəngləri qarışdırmaq və özünəçəxsus rəng yaratmaq üçün istifadə olunan rəng palitrası alətidir. Tutqacdan istifadə edərək ekrandan istənilən pikselin rəngini əldə etmək olar. Buraya Standart Veb rəngləri və Oksigen rəng sxemi kimi bir sıra ümumi rəng palitrası daxil edilmişdir.</p>
     <p xml:lang="ca">El KColorChooser és una eina de paleta de colors, usada per a barrejar colors i crear paletes de color personalitzades. Usant el deixar anar, podreu obtenir el color de qualsevol píxel de la pantalla. S'inclouen diverses paletes de color normals, com els colors Web estàndard i l'esquema de color Oxygen.</p>
     <p xml:lang="ca-valencia">El KColorChooser és una eina de paleta de colors, usada per a barrejar colors i crear paletes de color personalitzades. Usant el deixar anar, podreu obtindre el color de qualsevol píxel de la pantalla. S'inclouen diverses paletes de color normals, com els colors Web estàndard i l'esquema de color Oxygen.</p>
