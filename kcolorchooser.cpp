@@ -38,8 +38,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #include <iostream>
 
-static const char description[] = I18N_NOOP("KDE Color Chooser");
-
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling, true);
@@ -51,7 +49,7 @@ int main(int argc, char *argv[])
     KAboutData aboutData(QStringLiteral("kcolorchooser"),
                          i18n("KColorChooser"),
                          QStringLiteral(KCOLORCHOOSER_VERSION_STRING),
-                         i18n(description),
+                         i18n("KDE Color Chooser"),
                          KAboutLicense::BSDL,
                          i18n("(c) 2000, Waldo Bastian"));
     aboutData.addAuthor(i18n("Waldo Bastian"), QString(), QStringLiteral("bastian@kde.org"));
