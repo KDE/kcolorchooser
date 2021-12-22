@@ -9,7 +9,7 @@ set(RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE_
 project(kcolorchooser VERSION ${RELEASE_SERVICE_VERSION})
 
 set(QT_MIN_VERSION     "5.15.0")
-set(KF5_MIN_VERSION    "5.85.0")
+set(KF5_MIN_VERSION    "5.89.0")
 
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
@@ -21,7 +21,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(KDECMakeSettings)
 include(ECMSetupVersion)
 
-find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
+find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
   Core
   Gui
   Widgets)
@@ -43,10 +43,10 @@ add_executable(kcolorchooser)
 target_sources(kcolorchooser PRIVATE kcolorchooser.cpp )
 
 
-target_link_libraries(kcolorchooser Qt::Gui KF5::I18n KF5::XmlGui)
+target_link_libraries(kcolorchooser Qt${QT_MAJOR_VERSION}::Gui KF5::I18n KF5::XmlGui)
 
 install(TARGETS kcolorchooser  ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
-install(PROGRAMS org.kde.kcolorchooser.desktop DESTINATION  ${XDG_APPS_INSTALL_DIR})
+install(PROGRAMS org.kde.kcolorchooser.desktop DESTINATION  ${KDE_INSTALL_APPDIR})
 
 ecm_install_icons(ICONS
   16-apps-kcolorchooser.png
