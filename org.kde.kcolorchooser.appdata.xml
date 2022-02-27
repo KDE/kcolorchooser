@@ -75,7 +75,7 @@
   <summary xml:lang="uk">Засіб вибору кольорів та редактор палітр</summary>
   <summary xml:lang="vi">Trình chọn màu và sửa bảng màu</summary>
   <summary xml:lang="x-test">xxColor selector and palette editorxx</summary>
-  <summary xml:lang="zh-CN">取色器和配色编辑器</summary>
+  <summary xml:lang="zh-CN">颜色选择器和色板编辑器</summary>
   <summary xml:lang="zh-TW">顏色選取器及調色盤編輯器</summary>
   <description>
     <p>
@@ -117,7 +117,7 @@
     <p xml:lang="uk">KColorChooser — інструмент для роботи з палітрами, яким можна скористатися для змішування кольорів і створення нетипових палітр кольорів. За допомогою піпетки програма може отримувати колір з будь-якого пікселя екрана. До складу пакунка включено декілька типових палітр, зокрема стандартні кольори інтернету та кольори теми Oxygen.</p>
     <p xml:lang="vi">KColorChooser là một công cụ bảng màu, dùng để trộn màu và tạo các bảng màu riêng. Sử dụng trình thả, nó có thể lấy được màu của bất kì điểm ảnh nào trên màn hình. Chương trình đã bao gồm một số bảng màu thông dụng, chẳng hạn như các màu web tiêu chuẩn và quy hoạch màu Oxygen.</p>
     <p xml:lang="x-test">xxKColorChooser is a color palette tool, used to mix colors and create custom color palettes. Using the dropper, it can obtain the color of any pixel on the screen. A number of common color palettes are included, such as the standard Web colors and the Oxygen color scheme.xx</p>
-    <p xml:lang="zh-CN">KColorChooser 是一个调色板工具，用于混合颜色和创建自定义颜色。使用滴管工具，它能从屏幕上的任何像素抓取颜色。一些常用调色板已经包含其中，比如标准 Web 颜色和 Oxygen 配色方案。</p>
+    <p xml:lang="zh-CN">KColorChooser 是一款色板工具，用于混合颜色和创建自定义颜色。它的滴管工具能获取屏幕上的任何像素的颜色。它包含了一些常用色板，例如标准网络安全颜色和 Oxygen 配色等色板。</p>
     <p xml:lang="zh-TW">KColorChooser 是一個調色盤工具，用於混合顏色與建立自訂的色彩調色盤。使用滴管工具，它可以擷取畫面上任何一個像素的顏色。其包含了許多常見的調色盤，如標準的網路色彩與 Oxygen 配色方案。</p>
   </description>
   <url type="homepage">https://kde.org/applications/graphics/kcolorchooser/</url>
