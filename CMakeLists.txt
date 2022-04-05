@@ -26,6 +26,7 @@ find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
   Gui
   Widgets)
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
+  CoreAddons
   I18n
   XmlGui)
 
@@ -43,7 +44,12 @@ add_executable(kcolorchooser)
 target_sources(kcolorchooser PRIVATE kcolorchooser.cpp )
 
 
-target_link_libraries(kcolorchooser Qt${QT_MAJOR_VERSION}::Gui KF5::I18n KF5::XmlGui)
+target_link_libraries(kcolorchooser
+	Qt${QT_MAJOR_VERSION}::Gui
+	KF5::CoreAddons
+	KF5::I18n
+	KF5::XmlGui
+)
 
 install(TARGETS kcolorchooser  ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 install(PROGRAMS org.kde.kcolorchooser.desktop DESTINATION  ${KDE_INSTALL_APPDIR})
