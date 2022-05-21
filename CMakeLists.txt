@@ -61,3 +61,5 @@ ecm_install_icons(ICONS
   THEME hicolor)
 
 install(FILES org.kde.kcolorchooser.appdata.xml  DESTINATION  ${KDE_INSTALL_METAINFODIR})
+
+ki18n_install(po)
