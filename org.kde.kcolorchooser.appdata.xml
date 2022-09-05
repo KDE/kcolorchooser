@@ -24,6 +24,7 @@
   <name xml:lang="hu">KColorChooser</name>
   <name xml:lang="ia">KColorChooser</name>
   <name xml:lang="id">KColorChooser</name>
+  <name xml:lang="is">KLitaval</name>
   <name xml:lang="it">KColorChooser</name>
   <name xml:lang="ka">KColorChooser</name>
   <name xml:lang="ko">KColorChooser</name>
@@ -64,6 +65,7 @@
   <summary xml:lang="hu">Színválasztó és palettaszerkesztő</summary>
   <summary xml:lang="ia">Selector de color e modificator de paletta</summary>
   <summary xml:lang="id">Pemilih warna dan pengedit palet</summary>
+  <summary xml:lang="is">Litaval og litaspjaldaritill</summary>
   <summary xml:lang="it">Selettore di colore ed editor della tavolozza</summary>
   <summary xml:lang="ka">ფერის არჩევა და პალიტრის ჩასწორება</summary>
   <summary xml:lang="ko">색상 선택 및 팔레트 편집기</summary>
