@@ -1,0 +1,74 @@
+# translation of kcolorchooser.po to Japanese
+# Copyright (C) 2007 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdegraphics package.
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcolorchooser\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-12-23 00:42+0000\n"
+"PO-Revision-Date: 2007-11-28 19:00+0900\n"
+"Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: kcolorchooser.cpp:52
+#, kde-format
+msgid "KColorChooser"
+msgstr "KColorChooser"
+
+#: kcolorchooser.cpp:54
+#, kde-format
+msgid "KDE Color Chooser"
+msgstr "KDE 色選択ツール"
+
+#: kcolorchooser.cpp:56
+#, kde-format
+msgid "(c) 2000, Waldo Bastian"
+msgstr "(c) 2000, Waldo Bastian"
+
+#: kcolorchooser.cpp:57
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: kcolorchooser.cpp:58
+#, kde-format
+msgid "Hugo Parente Lima"
+msgstr ""
+
+#: kcolorchooser.cpp:58
+#, kde-format
+msgid "KF5 port"
+msgstr ""
+
+#: kcolorchooser.cpp:59
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Yukiko Bando"
+
+#: kcolorchooser.cpp:59
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ybando@k6.dion.ne.jp"
+
+# KCmdLineOptions
+#: kcolorchooser.cpp:65
+#, fuzzy, kde-format
+#| msgid "Print the selected color to stdout"
+msgid "Print the selected color to stdout."
+msgstr "選択した色を標準出力に印字"
+
+#: kcolorchooser.cpp:67
+#, kde-format
+msgid "Set initially selected color."
+msgstr ""

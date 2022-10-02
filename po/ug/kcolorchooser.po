@@ -1,0 +1,71 @@
+# Uyghur translation for kcolorchooser.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran.ug@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcolorchooser\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-12-23 00:42+0000\n"
+"PO-Revision-Date: 2013-09-08 07:05+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kcolorchooser.cpp:52
+#, kde-format
+msgid "KColorChooser"
+msgstr "KColorChooser"
+
+#: kcolorchooser.cpp:54
+#, kde-format
+msgid "KDE Color Chooser"
+msgstr "KDE رەڭ تاللىغۇچى"
+
+#: kcolorchooser.cpp:56
+#, kde-format
+msgid "(c) 2000, Waldo Bastian"
+msgstr "(c) 2000, Waldo Bastian"
+
+#: kcolorchooser.cpp:57
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: kcolorchooser.cpp:58
+#, kde-format
+msgid "Hugo Parente Lima"
+msgstr ""
+
+#: kcolorchooser.cpp:58
+#, kde-format
+msgid "KF5 port"
+msgstr ""
+
+#: kcolorchooser.cpp:59
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ئابدۇقادىر ئابلىز, غەيرەت كەنجى"
+
+#: kcolorchooser.cpp:59
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
+
+#: kcolorchooser.cpp:65
+#, fuzzy, kde-format
+#| msgid "Print the selected color to stdout"
+msgid "Print the selected color to stdout."
+msgstr "تاللانغان رەڭنى ئۆلچەملىك چىقىرىشتا بېسىپ چىقىرىدۇ"
+
+#: kcolorchooser.cpp:67
+#, kde-format
+msgid "Set initially selected color."
+msgstr ""

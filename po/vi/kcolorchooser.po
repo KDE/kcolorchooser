@@ -1,0 +1,70 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kcolorchooser package.
+#
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcolorchooser\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-12-23 00:42+0000\n"
+"PO-Revision-Date: 2020-12-18 22:30+0100\n"
+"Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
+"Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 20.08.1\n"
+
+#: kcolorchooser.cpp:52
+#, kde-format
+msgid "KColorChooser"
+msgstr "KColorChooser"
+
+#: kcolorchooser.cpp:54
+#, kde-format
+msgid "KDE Color Chooser"
+msgstr "Trình chọn màu KDE"
+
+#: kcolorchooser.cpp:56
+#, kde-format
+msgid "(c) 2000, Waldo Bastian"
+msgstr "(c) 2000, Waldo Bastian"
+
+#: kcolorchooser.cpp:57
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: kcolorchooser.cpp:58
+#, kde-format
+msgid "Hugo Parente Lima"
+msgstr "Hugo Parente Lima"
+
+#: kcolorchooser.cpp:58
+#, kde-format
+msgid "KF5 port"
+msgstr "Bản chuyển sang KF5"
+
+#: kcolorchooser.cpp:59
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nguyễn Hùng Phú"
+
+#: kcolorchooser.cpp:59
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "phu.nguyen@kdemail.net"
+
+#: kcolorchooser.cpp:65
+#, kde-format
+msgid "Print the selected color to stdout."
+msgstr "In màu được chọn ra đầu ra chuẩn (stdout)."
+
+#: kcolorchooser.cpp:67
+#, kde-format
+msgid "Set initially selected color."
+msgstr "Đặt màu được chọn ban đầu."
