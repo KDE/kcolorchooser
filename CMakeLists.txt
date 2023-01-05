@@ -33,7 +33,7 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 ecm_set_disabled_deprecation_versions(QT 5.15.2
-     KF 5.100.0
+     KF 5.102.0
     )
 
 ecm_setup_version(${RELEASE_SERVICE_VERSION} VARIABLE_PREFIX KCOLORCHOOSER VERSION_HEADER kcolorchooser_version.h)
