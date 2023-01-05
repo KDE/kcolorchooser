@@ -2,14 +2,15 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # Pierre-Marie Pédrot <pedrotpmx@wanadoo.fr>, 2007.
+# Oliver Kellogg <okellogg@users.sourceforge.net>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-23 00:42+0000\n"
-"PO-Revision-Date: 2007-10-22 22:41+0200\n"
-"Last-Translator: Pierre-Marie Pédrot <pedrotpmx@wanadoo.fr>\n"
+"PO-Revision-Date: 2023-01-04 22:00+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
@@ -61,12 +62,11 @@ msgid "Your emails"
 msgstr "pedrotpmx@wanadoo.fr"
 
 #: kcolorchooser.cpp:65
-#, fuzzy, kde-format
-#| msgid "Print the selected color to stdout"
+#, kde-format
 msgid "Print the selected color to stdout."
-msgstr "Printu la elektan koloron al stdout"
+msgstr "Printi la elektitan koloron al stdout."
 
 #: kcolorchooser.cpp:67
 #, kde-format
 msgid "Set initially selected color."
-msgstr ""
+msgstr "Meti la komence elektitan koloron."
