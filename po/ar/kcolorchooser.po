@@ -27,7 +27,7 @@ msgstr "KColorChooser"
 #: kcolorchooser.cpp:54
 #, kde-format
 msgid "KDE Color Chooser"
-msgstr "مختار اللون لكدي"
+msgstr "مختار اللون لكِيدِي"
 
 #: kcolorchooser.cpp:56
 #, kde-format
