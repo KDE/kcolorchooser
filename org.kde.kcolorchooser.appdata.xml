@@ -4,7 +4,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <name>KColorChooser</name>
-  <name xml:lang="ar">مختار اللون لكدي</name>
+  <name xml:lang="ar">مختار اللون لكِيدِي</name>
   <name xml:lang="az">KColorChooser</name>
   <name xml:lang="be">KColorChooser</name>
   <name xml:lang="bg">KColorChooser</name>
@@ -94,7 +94,7 @@
         the screen. A number of common color palettes are included, such as the standard Web colors
         and the Oxygen color scheme.
     </p>
-    <p xml:lang="ar">مختار اللون لكدي هي أداة لوحة ألوان، تُستخدم لمزج الألوان وإنشاء لوحات ألوان مخصصة. باستخدام القطارة يمكن الحصول على لون أي بكسل على الشاشة. يحوي البرنامج على عدد من لوحات الألوان الشائعة مثل ألوان الويب القياسية ونظام ألوان أكسجين.</p>
+    <p xml:lang="ar">مختار اللون لكِيدِي هي أداة لوحة ألوان، تُستخدم لمزج الألوان وإنشاء لوحات ألوان مخصصة. باستخدام القطارة يمكن الحصول على لون أي بكسل على الشاشة. يحوي البرنامج على عدد من لوحات الألوان الشائعة مثل ألوان الويب القياسية ونظام ألوان أكسجين.</p>
     <p xml:lang="az">KColorChooser rəngləri qarışdırmaq və özünəçəxsus rəng yaratmaq üçün istifadə olunan rəng palitrası alətidir. Tutqacdan istifadə edərək ekrandan istənilən pikselin rəngini əldə etmək olar. Buraya Standart Veb rəngləri və Oksigen rəng sxemi kimi bir sıra ümumi rəng palitrası daxil edilmişdir.</p>
     <p xml:lang="be">KColorChooser - гэта інструмент колеравай палітры, які выкарыстоўваецца для змешвання колераў і стварэння адвольных колеравых палітраў. З дапамогай піпеткі ён можа атрымаць колер любога пікселя на экране. Інструмент мае ў камплекце шэраг агульных колеравых палітраў, такіх як стандартныя вэб-колеры і колеравая схема Oxygen.</p>
     <p xml:lang="bg">KColorChooser е инструмент за цветови палитри, който се използва за смесване на цветове и създаване на персонализирани цветови палитри. С помощта на капкомера може да се получи цветът на всеки пиксел на екрана. Включени са редица често срещани цветови палитри, като например стандартните уеб цветове и цветовата схема Oxygen.</p>
