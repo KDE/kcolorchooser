@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-23 00:42+0000\n"
-"PO-Revision-Date: 2023-01-04 22:00+0100\n"
+"PO-Revision-Date: 2023-06-04 23:16+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -42,24 +42,24 @@ msgstr "Waldo Bastian"
 #: kcolorchooser.cpp:58
 #, kde-format
 msgid "Hugo Parente Lima"
-msgstr ""
+msgstr "Hugo Parente Lima"
 
 #: kcolorchooser.cpp:58
 #, kde-format
 msgid "KF5 port"
-msgstr ""
+msgstr "KF5-portado"
 
 #: kcolorchooser.cpp:59
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Pierre-Marie Pédrot"
+msgstr "Pierre-Marie Pédrot,Oliver Kellogg"
 
 #: kcolorchooser.cpp:59
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "pedrotpmx@wanadoo.fr"
+msgstr "pedrotpmx@wanadoo.fr,okellogg@users.sourceforge.net"
 
 #: kcolorchooser.cpp:65
 #, kde-format
