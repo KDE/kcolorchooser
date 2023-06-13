@@ -15,6 +15,7 @@
   <name xml:lang="de">KColorChooser</name>
   <name xml:lang="el">KColorChooser</name>
   <name xml:lang="en-GB">KColorChooser</name>
+  <name xml:lang="eo">KColorChooser</name>
   <name xml:lang="es">KColorChooser</name>
   <name xml:lang="et">KColorChooser</name>
   <name xml:lang="eu">KColorChooser</name>
@@ -57,6 +58,7 @@
   <summary xml:lang="de">Farbauswahl und Farbpaletten-Editor</summary>
   <summary xml:lang="el">Επιλογέας χρωμάτων και επεξεργαστής παλέτας</summary>
   <summary xml:lang="en-GB">Colour selector and palette editor</summary>
+  <summary xml:lang="eo">Kolorelektilo kaj paletra redaktilo</summary>
   <summary xml:lang="es">Selector de colores y editor de paletas</summary>
   <summary xml:lang="et">Värvivalija ja värvipaleti redaktor</summary>
   <summary xml:lang="eu">Kolore hautatzaile eta paleta editorea</summary>
