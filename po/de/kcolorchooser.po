@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:42+0000\n"
+"POT-Creation-Date: 2023-09-15 01:53+0000\n"
 "PO-Revision-Date: 2016-03-11 10:48+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -15,54 +15,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kcolorchooser.cpp:52
+#: kcolorchooser.cpp:48
 #, kde-format
 msgid "KColorChooser"
 msgstr "KColorChooser"
 
-#: kcolorchooser.cpp:54
+#: kcolorchooser.cpp:50
 #, kde-format
 msgid "KDE Color Chooser"
 msgstr "KDE-Farbauswahl"
 
-#: kcolorchooser.cpp:56
+#: kcolorchooser.cpp:52
 #, kde-format
 msgid "(c) 2000, Waldo Bastian"
 msgstr "© 2000, Waldo Bastian"
 
-#: kcolorchooser.cpp:57
+#: kcolorchooser.cpp:53
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: kcolorchooser.cpp:58
+#: kcolorchooser.cpp:54
 #, kde-format
 msgid "Hugo Parente Lima"
 msgstr "Hugo Parente Lima"
 
-#: kcolorchooser.cpp:58
+#: kcolorchooser.cpp:54
 #, kde-format
 msgid "KF5 port"
 msgstr "Portierung auf KF5"
 
-#: kcolorchooser.cpp:59
+#: kcolorchooser.cpp:55
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Burkhard Lück"
 
-#: kcolorchooser.cpp:59
+#: kcolorchooser.cpp:55
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "lueck@hube-lueck.de"
 
-#: kcolorchooser.cpp:65
+#: kcolorchooser.cpp:61
 #, kde-format
 msgid "Print the selected color to stdout."
 msgstr "Ausgewählte Farbe auf die Standardausgabe (stdout) ausgeben."
 
-#: kcolorchooser.cpp:67
+#: kcolorchooser.cpp:63
 #, kde-format
 msgid "Set initially selected color."
 msgstr "Anfangs ausgewählte Farbe einstellen."

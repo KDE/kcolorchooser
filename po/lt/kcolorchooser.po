@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:42+0000\n"
+"POT-Creation-Date: 2023-09-15 01:53+0000\n"
 "PO-Revision-Date: 2019-12-06 22:45+0200\n"
 "Last-Translator: Tomas Straupis <tomasstraupis@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -19,54 +19,54 @@ msgstr ""
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
 "X-Generator: Poedit 2.2.4\n"
 
-#: kcolorchooser.cpp:52
+#: kcolorchooser.cpp:48
 #, kde-format
 msgid "KColorChooser"
 msgstr "KColorChooser"
 
-#: kcolorchooser.cpp:54
+#: kcolorchooser.cpp:50
 #, kde-format
 msgid "KDE Color Chooser"
 msgstr "KDE spalvų parinkiklis"
 
-#: kcolorchooser.cpp:56
+#: kcolorchooser.cpp:52
 #, kde-format
 msgid "(c) 2000, Waldo Bastian"
 msgstr "(c) 2000, Waldo Bastian"
 
-#: kcolorchooser.cpp:57
+#: kcolorchooser.cpp:53
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: kcolorchooser.cpp:58
+#: kcolorchooser.cpp:54
 #, kde-format
 msgid "Hugo Parente Lima"
 msgstr "Hugo Parente Lima"
 
-#: kcolorchooser.cpp:58
+#: kcolorchooser.cpp:54
 #, kde-format
 msgid "KF5 port"
 msgstr "KF5 realizavimas"
 
-#: kcolorchooser.cpp:59
+#: kcolorchooser.cpp:55
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Andrius Štikonas, Moo"
 
-#: kcolorchooser.cpp:59
+#: kcolorchooser.cpp:55
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "andrius@stikonas.eu, <>"
 
-#: kcolorchooser.cpp:65
+#: kcolorchooser.cpp:61
 #, kde-format
 msgid "Print the selected color to stdout."
 msgstr "Išveda pasirinktą spalvą į stdout."
 
-#: kcolorchooser.cpp:67
+#: kcolorchooser.cpp:63
 #, kde-format
 msgid "Set initially selected color."
 msgstr "Nustatyti iš pradžių pasirenkamą spalvą."

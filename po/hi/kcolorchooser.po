@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:42+0000\n"
+"POT-Creation-Date: 2023-09-15 01:53+0000\n"
 "PO-Revision-Date: 2021-06-27 09:56+0530\n"
 "Last-Translator: Raghavendra Kamath <raghu@raghukamath.com>\n"
 "Language-Team: kde-hindi\n"
@@ -21,54 +21,54 @@ msgstr ""
 "X-Generator: Lokalize 21.04.2\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: kcolorchooser.cpp:52
+#: kcolorchooser.cpp:48
 #, kde-format
 msgid "KColorChooser"
 msgstr "के-कलरचूज़र"
 
-#: kcolorchooser.cpp:54
+#: kcolorchooser.cpp:50
 #, kde-format
 msgid "KDE Color Chooser"
 msgstr "केडीई रंग चयनक"
 
-#: kcolorchooser.cpp:56
+#: kcolorchooser.cpp:52
 #, kde-format
 msgid "(c) 2000, Waldo Bastian"
 msgstr "(c) २०००, वाल्दो बास्तियान"
 
-#: kcolorchooser.cpp:57
+#: kcolorchooser.cpp:53
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "वाल्दो बास्तियान"
 
-#: kcolorchooser.cpp:58
+#: kcolorchooser.cpp:54
 #, kde-format
 msgid "Hugo Parente Lima"
 msgstr "ह्यूगो पेरेंते लिमा"
 
-#: kcolorchooser.cpp:58
+#: kcolorchooser.cpp:54
 #, kde-format
 msgid "KF5 port"
 msgstr "केएफ़५ पोर्ट"
 
-#: kcolorchooser.cpp:59
+#: kcolorchooser.cpp:55
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "रविशंकर श्रीवास्तव, जी. करूणाकर, समीर सिंह, राघवेंद्र कामत"
 
-#: kcolorchooser.cpp:59
+#: kcolorchooser.cpp:55
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "raviratlami@aol.in, lumarzeli30@gmail.com, raghu@raghukamath.com"
 
-#: kcolorchooser.cpp:65
+#: kcolorchooser.cpp:61
 #, kde-format
 msgid "Print the selected color to stdout."
 msgstr "चयनित रंग को एसटीडीआउट में छापें।"
 
-#: kcolorchooser.cpp:67
+#: kcolorchooser.cpp:63
 #, kde-format
 msgid "Set initially selected color."
 msgstr "पहले चुने गये रंग लगाएँ।"
