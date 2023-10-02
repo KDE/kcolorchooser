@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Avi Sand <avisand@yahoo.com>, 2009.
 # Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
+# SPDX-FileCopyrightText: 2023 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-15 01:53+0000\n"
-"PO-Revision-Date: 2017-05-16 07:01-0400\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Hebrew <kde-l10n-he@kde.org>\n"
+"PO-Revision-Date: 2023-10-01 21:52+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Zanata 3.9.6\n"
+"X-Generator: Lokalize 23.08.1\n"
 
 #: kcolorchooser.cpp:48
 #, kde-format
@@ -26,46 +27,46 @@ msgstr "KColorChooser"
 #: kcolorchooser.cpp:50
 #, kde-format
 msgid "KDE Color Chooser"
-msgstr "בוחר הצבע של KDE"
+msgstr "בורר הצבע של KDE"
 
 #: kcolorchooser.cpp:52
 #, kde-format
 msgid "(c) 2000, Waldo Bastian"
-msgstr "(c) 2000, Waldo Bastian"
+msgstr "(c) 2000, ולדו בסטיאן"
 
 #: kcolorchooser.cpp:53
 #, kde-format
 msgid "Waldo Bastian"
-msgstr "Waldo Bastian"
+msgstr "ולדו בסטיאן"
 
 #: kcolorchooser.cpp:54
 #, kde-format
 msgid "Hugo Parente Lima"
-msgstr ""
+msgstr "הוגו פרנטה לימה"
 
 #: kcolorchooser.cpp:54
 #, kde-format
 msgid "KF5 port"
-msgstr ""
+msgstr "הסבה ל־KF5"
 
 #: kcolorchooser.cpp:55
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "אבי זאנד"
+msgstr "אבי זאנד וצוות התרגום של KDE ישראל"
 
 #: kcolorchooser.cpp:55
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "avisand@yahoo.com"
+msgstr "avisand@yahoo.com, kde-l10n-he@kde.org"
 
 #: kcolorchooser.cpp:61
-#, fuzzy, kde-format
+#, kde-format
 msgid "Print the selected color to stdout."
-msgstr "הדפס את הצבע הנבחר ל stdout"
+msgstr "הצגת הצבע הנבחר ל־stdout."
 
 #: kcolorchooser.cpp:63
 #, kde-format
 msgid "Set initially selected color."
-msgstr ""
+msgstr "הגדרת הצבע שנבחר בהתחלה."

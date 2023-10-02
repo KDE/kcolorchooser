@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kcolorchooser package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcolorchooser\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-09-15 01:53+0000\n"
+"PO-Revision-Date: 2023-10-02 00:08+0530\n"
+"Last-Translator: \n"
+"Language-Team: Sanskrit\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: kcolorchooser.cpp:48
+#, kde-format
+msgid "KColorChooser"
+msgstr "रङ्ग चयनकर्ता"
+
+#: kcolorchooser.cpp:50
+#, kde-format
+msgid "KDE Color Chooser"
+msgstr "KDE रङ्ग चयनकर्ता"
+
+#: kcolorchooser.cpp:52
+#, kde-format
+msgid "(c) 2000, Waldo Bastian"
+msgstr "(c) २०००, वाल्डो बास्टियन्"
+
+#: kcolorchooser.cpp:53
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "वाल्डो बास्टियन्"
+
+#: kcolorchooser.cpp:54
+#, kde-format
+msgid "Hugo Parente Lima"
+msgstr "ह्यूगो पैरेन्टे लीमा"
+
+#: kcolorchooser.cpp:54
+#, kde-format
+msgid "KF5 port"
+msgstr "KF५ द्वार्"
+
+#: kcolorchooser.cpp:55
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्रीकान्त् कलवार्"
+
+#: kcolorchooser.cpp:55
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "skkalwar999@gmail.com"
+
+#: kcolorchooser.cpp:61
+#, kde-format
+msgid "Print the selected color to stdout."
+msgstr "चयनितं वर्णं stdout इत्यत्र मुद्रयन्तु ।."
+
+#: kcolorchooser.cpp:63
+#, kde-format
+msgid "Set initially selected color."
+msgstr "प्रारम्भे चयनितं वर्णं निरूपायतु ।."
