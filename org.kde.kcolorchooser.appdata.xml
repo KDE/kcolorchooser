@@ -37,6 +37,7 @@
   <name xml:lang="pt-BR">KColorChooser</name>
   <name xml:lang="ro">KColorChooser</name>
   <name xml:lang="ru">KColorChooser</name>
+  <name xml:lang="sa">रङ्ग चयनकर्ता</name>
   <name xml:lang="sk">KColorChooser</name>
   <name xml:lang="sl">KColorChooser</name>
   <name xml:lang="sv">Färgväljare</name>
@@ -80,6 +81,7 @@
   <summary xml:lang="pt-BR">Seletor de cores e editor de paletas</summary>
   <summary xml:lang="ro">Selector de culori și redactor de palete</summary>
   <summary xml:lang="ru">Программа для выбора цвета и редактирования палитры</summary>
+  <summary xml:lang="sa">रङ्गचयनकर्ता तथा वर्णसङ्ग्रह सम्पादकः</summary>
   <summary xml:lang="sk">Výber farby a editor palety</summary>
   <summary xml:lang="sl">Izbirnik barv in urejevalnik palet</summary>
   <summary xml:lang="sv">Färgväljare och paletteditor</summary>
@@ -128,6 +130,7 @@
     <p xml:lang="pt-BR">O KColorChooser é uma ferramenta de paleta de cores, usada para misturar cores e criar paletas de cores personalizadas. Usando o conta-gotas, você poderá obter a cor de qualquer ponto da tela. Está incluído um conjunto de paletas de cores comuns, como as cores-padrão da Web ou o esquema de cores Oxygen.</p>
     <p xml:lang="ro">KColorChooser este o unealtă pentru palete de culori, folosită pentru a amesteca culori și a crea palete de culori personalizate. Folosind pipeta, se poate obține culoarea oricărui punct de pe ecran. Sunt incluse un număr de palete uzuale, cum ar fi culorile Web standard și schema de culori Oxygen.</p>
     <p xml:lang="ru">KColorChooser — это инструмент цветовой палитры, используемый для смешивания цветов и создания пользовательских цветовых палитр. Приложение позволяет получить цвет любого пикселя. Приложение поддерживает основные цветовые палитры, такие как стандартные веб-цвета и цветовая схема Oxygen.</p>
+    <p xml:lang="sa">रङ्ग चयनकर्ता इति वर्णसङ्ग्रह-उपकरणम् अस्ति, यस्य उपयोगः वर्णानाम् मिश्रणाय, अनुकूलनीयः-वर्णसङ्ग्रह-निर्माणाय च भवति । बून्दकस्य उपयोगेन पटल् मध्ये कस्यापि पिक्सेलस्य वर्णं प्राप्तुं शक्नोति । सामान्यवर्णसङ्ग्रह-सङ्ख्याः समाविष्टाः सन्ति, यथा मानकजालवर्णाः, आक्सीजनवर्णयोजना च ।.</p>
     <p xml:lang="sk">KColorChooser je nástroj palety farieb, ktorý sa používa na miešanie farieb a vytváranie vlastných paliet farieb. Pomocou kvapkadla môžete získať farbu akéhokoľvek pixelu na obrazovke. Zahrnuté sú viaceré bežné palety farieb, ako napríklad štandardné webové farby a farebná schéma Kýslík.</p>
     <p xml:lang="sl">KColorChooser je orodje za barvno paleto, ki se uporablja za mešanje barv in ustvarjanje barvnih palet po meri. S pomočjo kapalke lahko pridobi barvo katerega koli piksla. Vključene so številne običajne barvne palete, na primer standardne spletne barve in barvna shema Oxygen.</p>
     <p xml:lang="sv">Färgväljaren är ett färgpalettverktyg, använt för att blanda färger och skapa egna färgpaletter. Genom att använda pipetten kan den hämta färgen på vilken bildpunkt som helst på skärmen. Ett antal vanliga färgpaletter är inkluderade, såsom de standardiserade webbfärgerna och Oxygens färgschema.</p>
