@@ -22,6 +22,7 @@
   <name xml:lang="fi">KColorChooser</name>
   <name xml:lang="fr">KColorChooser</name>
   <name xml:lang="gl">KColorChooser</name>
+  <name xml:lang="he">KColorChooser</name>
   <name xml:lang="hi">के-कलरचूज़र</name>
   <name xml:lang="hu">KColorChooser</name>
   <name xml:lang="ia">KColorChooser</name>
@@ -66,6 +67,7 @@
   <summary xml:lang="fi">Värivalitsin ja palettimuokkain</summary>
   <summary xml:lang="fr">Sélecteur de couleurs et éditeur de palettes</summary>
   <summary xml:lang="gl">Selector de cores e editor de paletas</summary>
+  <summary xml:lang="he">בורר צבעים ועורך סכמות</summary>
   <summary xml:lang="hi">रंग चयनक व रंग पट्टिका संपादक</summary>
   <summary xml:lang="hu">Színválasztó és palettaszerkesztő</summary>
   <summary xml:lang="ia">Selector de color e modificator de paletta</summary>
@@ -115,6 +117,7 @@
     <p xml:lang="fi">KColorChooser on väripalettityökalu värien sekoittamiseen ja väripalettien mukauttamiseen. Värin voi poimia mistä tahansa kuvapisteestä näytöltä. Mukana on muutama yleinen paletti kuten yleiset internetvärit sekä Oxygen-värimalli.</p>
     <p xml:lang="fr">KColorChooser est un outil de palettes de couleurs, qui permet de mélanger des couleurs et de créer des palettes de couleurs. À l'aide de la pipette, vous pouvez obtenir la couleur de n'importe quel pixel affiché à l'écran. De nombreuses palettes de couleurs répandues sont incluses, dont les couleurs standard du Web et celles du schéma de couleurs Oxygen.</p>
     <p xml:lang="gl">KColorChooser é unha ferramenta de paleta de cores que se usa para mesturar cores e crear paletas de cores personalizadas. Pode usar o contagotas para obter a cor de calquera píxel da pantalla. Inclúense varias paletas de cores comúns, como as cores web estándar e o esquema de cores de Oxygen.</p>
+    <p xml:lang="he">KColorChooser הוא כלי ערכות צבעים שמשמש לערבוב צבעים ויצירת ערכות צבעים מותאמות. עם הטפטפת אפשר לקבל את הצבע של כל פיקסל במסך. יש כמה ערכות צבעים כלולות כגון הצבעים התקניים לאתרים וערכת הצבעים חמצן.</p>
     <p xml:lang="hi">के-कलरचूज़र एक रंगपट्टिका उपकरण है, जिसका प्रयोग रंगो को मिलाने एवं तदनुकूल रंगपट्टिका बनाने में होता है। ड्राॅपर के माध्यम से आप स्क्रीन में उपल्बध किसी भी पिक्सल का रंग पा सकते हैं। इसमें विभिन्न प्रकार की रंगपट्टिकाएँ उपलब्ध हैं जैसे की मानक वेब रंग तथा ऑक्सीजन रंग योजना।</p>
     <p xml:lang="hu">A KColorChooser egy színpaletta eszköz, színek keveréséhez és egyéni színpaletták készítéséhez. A színválasztóval a képernyő bármelyik képpontjának színét ki lehet választani. Számos gyakori színpalettát tartalmaz, például a standard webes színeket és az Oxygen színsémát.</p>
     <p xml:lang="ia">KColorChooser es un instrumento de paletta, usate per miscer colores e crear palettas personalisate de color. Si on usa le contaguttas, on pote obtener el color de ulle pixel sur le schermo. UN numero de palettes de color commun es includite, tal como le colores standard de web e le color de schema Oxygen.</p>
