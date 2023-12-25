@@ -145,7 +145,7 @@
     <p xml:lang="zh-CN">KColorChooser 是一款色板工具，用于混合颜色和创建自定义颜色。它的滴管工具能获取屏幕上的任何像素的颜色。它包含了一些常用色板，例如标准网络安全颜色和 Oxygen 配色等色板。</p>
     <p xml:lang="zh-TW">KColorChooser 是一個調色盤工具，用於混合顏色與建立自訂的色彩調色盤。使用滴管工具，它可以擷取畫面上任何一個像素的顏色。其包含了許多常見的調色盤，如標準的網路色彩與 Oxygen 配色方案。</p>
   </description>
-  <url type="homepage">https://kde.org/applications/graphics/kcolorchooser/</url>
+  <url type="homepage">https://apps.kde.org/kcolorchooser/</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kcolorchooser</url>
   <url type="donation">https://www.kde.org/community/donations/?app=kcolorchooser&amp;source=appdata</url>
   <screenshots>
