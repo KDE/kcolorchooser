@@ -65,6 +65,8 @@ int main(int argc, char *argv[])
     parser.process(app);
     aboutData.processCommandLine(&parser);
 
+    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kcolorchooser")));
+
     QColorDialog dlg;
     dlg.setOption(QColorDialog::DontUseNativeDialog);
     QDialogButtonBox *box = dlg.findChild<QDialogButtonBox*>();
