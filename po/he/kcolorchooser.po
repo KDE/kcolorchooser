@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Avi Sand <avisand@yahoo.com>, 2009.
 # Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
-# SPDX-FileCopyrightText: 2023 Yaron Shahrabani <sh.yaron@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2024 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-15 01:53+0000\n"
-"PO-Revision-Date: 2023-10-01 21:52+0300\n"
+"PO-Revision-Date: 2024-01-26 10:13+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #: kcolorchooser.cpp:48
 #, kde-format
@@ -54,13 +54,13 @@ msgstr "הסבה ל־KF5"
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "אבי זאנד וצוות התרגום של KDE ישראל"
+msgstr "אבי זאנד,צוות התרגום של KDE ישראל"
 
 #: kcolorchooser.cpp:55
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "avisand@yahoo.com, kde-l10n-he@kde.org"
+msgstr "avisand@yahoo.com,kde-l10n-he@kde.org"
 
 #: kcolorchooser.cpp:61
 #, kde-format
