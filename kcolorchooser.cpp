@@ -67,6 +67,9 @@ int main(int argc, char *argv[])
 
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kcolorchooser")));
 
+    /* Work around https://bugreports.qt.io/browse/QTBUG-120957 */
+    app.processEvents();
+
     QColorDialog dlg;
     dlg.setOption(QColorDialog::DontUseNativeDialog);
     QDialogButtonBox *box = dlg.findChild<QDialogButtonBox*>();
