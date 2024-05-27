@@ -9,9 +9,9 @@ set(RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE_
 project(kcolorchooser VERSION ${RELEASE_SERVICE_VERSION})
 
 set(QT_MIN_VERSION     "6.5.0")
-set(KF5_MIN_VERSION    "5.240.0")
+set(KF_MIN_VERSION    "6.1.0")
 
-find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
+find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
 include(ECMInstallIcons)
@@ -26,14 +26,14 @@ find_package(Qt6 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
   Core
   Gui
   Widgets)
-find_package(KF6 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
   CoreAddons
   I18n
   XmlGui)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
-ecm_set_disabled_deprecation_versions(QT 6.5
-     KF 5.240.0
+ecm_set_disabled_deprecation_versions(QT 6.7
+     KF 6.3
     )
 
 ecm_setup_version(${RELEASE_SERVICE_VERSION} VARIABLE_PREFIX KCOLORCHOOSER VERSION_HEADER kcolorchooser_version.h)
@@ -43,7 +43,7 @@ target_sources(kcolorchooser PRIVATE kcolorchooser.cpp )
 
 
 target_link_libraries(kcolorchooser
-	Qt6::Gui
+	Qt::Gui
 	KF6::CoreAddons
 	KF6::I18n
 	KF6::XmlGui
