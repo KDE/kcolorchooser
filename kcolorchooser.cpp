@@ -1,5 +1,5 @@
 /*
-This file is part of KDE 
+This file is part of KDE
 
   Copyright (C) 1998-2000 Waldo Bastian (bastian@kde.org)
 
@@ -24,8 +24,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include "kcolorchooser_version.h"
 
 #include <KAboutData>
-#include <KLocalizedString>
 #include <KHelpMenu>
+#include <KLocalizedString>
 
 #include <QApplication>
 #include <QClipboard>
@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
                          KAboutLicense::BSDL,
                          i18n("(c) 2000, Waldo Bastian"));
     aboutData.addAuthor(i18n("Waldo Bastian"), QString(), QStringLiteral("bastian@kde.org"));
-    aboutData.addAuthor(i18n("Hugo Parente Lima"),i18n("KF5 port"), QStringLiteral("hugo.pl@gmail.com"));
+    aboutData.addAuthor(i18n("Hugo Parente Lima"), i18n("KF5 port"), QStringLiteral("hugo.pl@gmail.com"));
     aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
     KAboutData::setApplicationData(aboutData);
 
@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
 
     QColorDialog dlg;
     dlg.setOption(QColorDialog::DontUseNativeDialog);
-    QDialogButtonBox *box = dlg.findChild<QDialogButtonBox*>();
+    QDialogButtonBox *box = dlg.findChild<QDialogButtonBox *>();
     if (!box) {
         return 1;
     }
@@ -82,7 +82,7 @@ int main(int argc, char *argv[])
     KHelpMenu *help = new KHelpMenu(&dlg, aboutData, false);
     help->menu();
     delete help->action(KHelpMenu::menuHelpContents);
-    QObject::connect(box, &QDialogButtonBox::helpRequested, [=] () {
+    QObject::connect(box, &QDialogButtonBox::helpRequested, [=]() {
         QPushButton *button = box->button(QDialogButtonBox::Help);
         QPoint pos = button->pos();
         pos.ry() += button->height();
@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
     dlg.show();
     app.exec();
 
-    const  QColor c = dlg.currentColor();
+    const QColor c = dlg.currentColor();
     if (parser.isSet(print) && c.isValid()) {
         std::cout << c.name().toUtf8().constData() << std::endl;
     }
