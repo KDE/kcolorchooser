@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
                          i18n("KColorChooser"),
                          QStringLiteral(KCOLORCHOOSER_VERSION_STRING),
                          i18n("KDE Color Chooser"),
-                         KAboutLicense::BSDL,
+                         KAboutLicense::BSD_2_Clause,
                          i18n("(c) 2000, Waldo Bastian"));
     aboutData.addAuthor(i18n("Waldo Bastian"), QString(), QStringLiteral("bastian@kde.org"));
     aboutData.addAuthor(i18n("Hugo Parente Lima"), i18n("KF5 port"), QStringLiteral("hugo.pl@gmail.com"));
@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
 
     box->addButton(QDialogButtonBox::Help);
 
-    KHelpMenu *help = new KHelpMenu(&dlg, aboutData, false);
+    KHelpMenu *help = new KHelpMenu(&dlg, aboutData);
     help->menu();
     delete help->action(KHelpMenu::menuHelpContents);
     QObject::connect(box, &QDialogButtonBox::helpRequested, [=]() {

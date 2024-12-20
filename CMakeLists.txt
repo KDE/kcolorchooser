@@ -9,7 +9,7 @@ set(RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE_
 project(kcolorchooser VERSION ${RELEASE_SERVICE_VERSION})
 
 set(QT_MIN_VERSION     "6.5.0")
-set(KF_MIN_VERSION    "6.1.0")
+set(KF_MIN_VERSION    "6.9.0")
 
 find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
@@ -36,8 +36,8 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
   XmlGui)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
-ecm_set_disabled_deprecation_versions(QT 6.7
-     KF 6.4
+ecm_set_disabled_deprecation_versions(QT 6.8.1
+     KF 6.9.0
     )
 
 ecm_setup_version(${RELEASE_SERVICE_VERSION} VARIABLE_PREFIX KCOLORCHOOSER VERSION_HEADER kcolorchooser_version.h)
