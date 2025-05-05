@@ -36,8 +36,8 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
   XmlGui)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
-ecm_set_disabled_deprecation_versions(QT 6.8.1
-     KF 6.9.0
+ecm_set_disabled_deprecation_versions(QT 6.9.0
+     KF 6.13.0
     )
 
 ecm_setup_version(${RELEASE_SERVICE_VERSION} VARIABLE_PREFIX KCOLORCHOOSER VERSION_HEADER kcolorchooser_version.h)
