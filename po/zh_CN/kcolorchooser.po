@@ -20,12 +20,12 @@ msgstr ""
 #: kcolorchooser.cpp:48
 #, kde-format
 msgid "KColorChooser"
-msgstr "KColorChooser"
+msgstr "KColorChooser 颜色选择工具"
 
 #: kcolorchooser.cpp:50
 #, kde-format
 msgid "KDE Color Chooser"
-msgstr "KDE 颜色选择器"
+msgstr "KDE 颜色选择工具"
 
 #: kcolorchooser.cpp:52
 #, kde-format
