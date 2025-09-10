@@ -1,9 +1,10 @@
 {
     "id": "org.kde.kcolorchooser",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "kcolorchooser",
+    "rename-icon": "kcolorchooser",
     "finish-args": [
         "--device=dri",
         "--share=ipc",
@@ -21,7 +22,8 @@
                 }
             ],
             "post-install": [
-                "install -D /usr/share/icons/breeze/apps/48/kcolorchooser.svg /app/share/icons/hicolor/scalable/apps/kcolorchooser.svg"
+                "install -D /usr/share/icons/breeze/apps/48/kcolorchooser.svg /app/share/icons/hicolor/scalable/apps/kcolorchooser.svg",
+                "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
             ]
         }
     ]
