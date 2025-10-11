@@ -1,6 +1,6 @@
-# Burkhard Lück <lueck@hube-lueck.de>, 2007.
-# Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
-# Frederik Schwarzer <schwarzer@kde.org>, 2010, 2016.
+# SPDX-FileCopyrightText: 2007 Burkhard Lück <lueck@hube-lueck.de>
+# SPDX-FileCopyrightText: 2010 Panagiotis Papadopoulos <pano_90@gmx.net>
+# SPDX-FileCopyrightText: 2010, 2016 Frederik Schwarzer <schwarzer@kde.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
