@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
     aboutData.setupCommandLine(&parser);
     QCommandLineOption print(QStringLiteral("print"), i18n("Print the selected color to stdout."));
     parser.addOption(print);
-    QCommandLineOption color(QStringLiteral("color"), i18n("Set initially selected color."), QStringLiteral("color"));
+    QCommandLineOption color(QStringLiteral("color"), i18n("Set initially selected color."), i18n("color"));
     parser.addOption(color);
     parser.process(app);
     aboutData.processCommandLine(&parser);
