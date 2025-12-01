@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-01 00:40+0000\n"
 "PO-Revision-Date: 2010-12-10 06:01+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan(at)computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
@@ -71,3 +71,8 @@ msgstr "Таңдалған түсті stdout құрылғысына басып �
 #| msgid "Set initially selected color"
 msgid "Set initially selected color."
 msgstr "Алғашқы таңдалған түсін орнату"
+
+#: kcolorchooser.cpp:63
+#, kde-format
+msgid "color"
+msgstr ""

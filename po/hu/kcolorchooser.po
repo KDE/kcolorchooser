@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-01 00:40+0000\n"
 "PO-Revision-Date: 2022-02-14 09:43+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -70,3 +70,8 @@ msgstr "A kijelölt szín kiírása a standard kimenetre."
 #, kde-format
 msgid "Set initially selected color."
 msgstr "Kezdeti kijelölt szín beállítása."
+
+#: kcolorchooser.cpp:63
+#, kde-format
+msgid "color"
+msgstr ""

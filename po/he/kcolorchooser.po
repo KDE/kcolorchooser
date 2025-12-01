@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-01 00:40+0000\n"
 "PO-Revision-Date: 2024-01-26 10:13+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -71,3 +71,8 @@ msgstr "הצגת הצבע הנבחר ל־stdout."
 #, kde-format
 msgid "Set initially selected color."
 msgstr "הגדרת הצבע שנבחר בהתחלה."
+
+#: kcolorchooser.cpp:63
+#, kde-format
+msgid "color"
+msgstr ""

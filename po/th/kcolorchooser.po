@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-01 00:40+0000\n"
 "PO-Revision-Date: 2010-12-18 14:07+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -71,3 +71,8 @@ msgstr "พิมพ์สีที่เลือกออกทางส่ว
 #| msgid "Set initially selected color"
 msgid "Set initially selected color."
 msgstr "ตั้งสีที่เลือกไว้เป็นค่าสีเริ่มต้น"
+
+#: kcolorchooser.cpp:63
+#, kde-format
+msgid "color"
+msgstr ""

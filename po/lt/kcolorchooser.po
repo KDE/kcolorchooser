@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-01 00:40+0000\n"
 "PO-Revision-Date: 2019-12-06 22:45+0200\n"
 "Last-Translator: Tomas Straupis <tomasstraupis@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -70,3 +70,8 @@ msgstr "Išveda pasirinktą spalvą į stdout."
 #, kde-format
 msgid "Set initially selected color."
 msgstr "Nustatyti iš pradžių pasirenkamą spalvą."
+
+#: kcolorchooser.cpp:63
+#, kde-format
+msgid "color"
+msgstr ""

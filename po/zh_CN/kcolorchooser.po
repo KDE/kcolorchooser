@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-01 00:40+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -68,3 +68,8 @@ msgstr "将选中的颜色打印到 stdout。"
 #, kde-format
 msgid "Set initially selected color."
 msgstr "设置初始选择的颜色。"
+
+#: kcolorchooser.cpp:63
+#, kde-format
+msgid "color"
+msgstr ""

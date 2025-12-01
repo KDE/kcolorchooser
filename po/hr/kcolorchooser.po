@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-01 00:40+0000\n"
 "PO-Revision-Date: 2010-11-27 17:42+0100\n"
 "Last-Translator: Marko Dimjasevic <marko@dimjasevic.net>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -75,3 +75,8 @@ msgstr "Ispiši odabranu boju na standardni izlaz (stdout)"
 #| msgid "Set initially selected color"
 msgid "Set initially selected color."
 msgstr "Postavi prvotno odabranu boju"
+
+#: kcolorchooser.cpp:63
+#, kde-format
+msgid "color"
+msgstr ""
