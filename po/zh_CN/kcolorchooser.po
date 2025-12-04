@@ -72,4 +72,4 @@ msgstr "设置初始选择的颜色。"
 #: kcolorchooser.cpp:63
 #, kde-format
 msgid "color"
-msgstr ""
+msgstr "颜色"

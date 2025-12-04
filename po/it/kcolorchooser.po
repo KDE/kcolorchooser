@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Leonardo Finetti <finex@finex.org>, 2007.
 # Nicola Ruggero <nicola@nxnt.org>, 2011.
-# Luigi Toscano <luigi.toscano@tiscali.it>, 2016.
+# SPDX-FileCopyrightText: 2016, 2025 Luigi Toscano <luigi.toscano@tiscali.it>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-01 00:40+0000\n"
-"PO-Revision-Date: 2016-06-19 18:12+0100\n"
+"PO-Revision-Date: 2025-12-02 11:49+0100\n"
 "Last-Translator: Luigi Toscano <luigi.toscano@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: kcolorchooser.cpp:48
 #, kde-format
@@ -75,4 +75,4 @@ msgstr "Imposta il colore selezionato inizialmente."
 #: kcolorchooser.cpp:63
 #, kde-format
 msgid "color"
-msgstr ""
+msgstr "colore"
