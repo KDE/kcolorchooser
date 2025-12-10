@@ -73,4 +73,4 @@ msgstr "Nastavit původně vybranou barvu"
 #: kcolorchooser.cpp:63
 #, kde-format
 msgid "color"
-msgstr ""
+msgstr "barva"
