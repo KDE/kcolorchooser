@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Mikko Piippo <piippo@cc.helsinki.fi>, 2007.
 # Lasse Liehu <lliehu@kolumbus.fi>, 2011, 2013, 2014, 2016.
+# SPDX-FileCopyrightText: 2026 Tommi Nieminen <translator@legisign.org>
 #
 # KDE Finnish translation sprint participants:
 msgid ""
@@ -10,14 +11,15 @@ msgstr ""
 "Project-Id-Version: kcolorchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-01 00:40+0000\n"
-"PO-Revision-Date: 2016-03-10 00:58+0200\n"
-"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
+"PO-Revision-Date: 2026-01-05 15:55+0200\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: kcolorchooser.cpp:48
 #, kde-format
@@ -74,4 +76,4 @@ msgstr "Aseta aluksi valittu väri."
 #: kcolorchooser.cpp:63
 #, kde-format
 msgid "color"
-msgstr ""
+msgstr "väri"
