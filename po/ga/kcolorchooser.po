@@ -60,16 +60,14 @@ msgid "Your emails"
 msgstr "kscanne@gmail.com"
 
 #: kcolorchooser.cpp:61
-#, fuzzy, kde-format
-#| msgid "Print the selected color to stdout"
+#, kde-format
 msgid "Print the selected color to stdout."
-msgstr "Priontáil an dath roghnaithe ar an ngnáth-aschur"
+msgstr ""
 
 #: kcolorchooser.cpp:63
-#, fuzzy, kde-format
-#| msgid "Set initially selected color"
+#, kde-format
 msgid "Set initially selected color."
-msgstr "Roghnaigh an dath le húsáid ar dtús"
+msgstr ""
 
 #: kcolorchooser.cpp:63
 #, kde-format
