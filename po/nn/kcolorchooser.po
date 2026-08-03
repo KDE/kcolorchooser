@@ -1,5 +1,6 @@
 # Translation of kcolorchooser to Norwegian Nynorsk
 #
+# Karl Ove Hufthammer <karl@huftis.org>, 2008, 2016, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcolorchooser\n"
