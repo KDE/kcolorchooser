@@ -48,6 +48,10 @@
   <name xml:lang="sa">रङ्ग चयनकर्ता</name>
   <name xml:lang="sk">KColorChooser</name>
   <name xml:lang="sl">KColorChooser</name>
+  <name xml:lang="sr">К‑бирач‑боја</name>
+  <name xml:lang="sr-Latn">K‑birač‑boja</name>
+  <name xml:lang="sr-ijekavian">К‑бирач‑боја</name>
+  <name xml:lang="sr-ijekavianlatin">K‑birač‑boja</name>
   <name xml:lang="sv">Färgväljare</name>
   <name xml:lang="ta">கேகலர்சூசர்</name>
   <name xml:lang="tr">K Renkseçer</name>
@@ -97,6 +101,10 @@
   <summary xml:lang="sa">रङ्गचयनकर्ता तथा वर्णसङ्ग्रह सम्पादकः</summary>
   <summary xml:lang="sk">Výber farby a editor palety</summary>
   <summary xml:lang="sl">Izbirnik barv in urejevalnik palet</summary>
+  <summary xml:lang="sr">Бирач боја и уређивач палете</summary>
+  <summary xml:lang="sr-Latn">Birač boja i uređivač palete</summary>
+  <summary xml:lang="sr-ijekavian">Бирач боја и уређивач палете</summary>
+  <summary xml:lang="sr-ijekavianlatin">Birač boja i uređivač palete</summary>
   <summary xml:lang="sv">Färgväljare och paletteditor</summary>
   <summary xml:lang="ta">நிறத்தேர்வி மற்றும் நிறக்கூட்டு திருத்தி</summary>
   <summary xml:lang="tr">Renk seçici ve palet düzenleyici</summary>
@@ -151,6 +159,10 @@
     <p xml:lang="sa">रङ्ग चयनकर्ता इति वर्णसङ्ग्रह-उपकरणम् अस्ति, यस्य उपयोगः वर्णानाम् मिश्रणाय, अनुकूलनीयः-वर्णसङ्ग्रह-निर्माणाय च भवति । बून्दकस्य उपयोगेन पटल् मध्ये कस्यापि पिक्सेलस्य वर्णं प्राप्तुं शक्नोति । सामान्यवर्णसङ्ग्रह-सङ्ख्याः समाविष्टाः सन्ति, यथा मानकजालवर्णाः, आक्सीजनवर्णयोजना च ।.</p>
     <p xml:lang="sk">KColorChooser je nástroj palety farieb, ktorý sa používa na miešanie farieb a vytváranie vlastných paliet farieb. Pomocou kvapkadla môžete získať farbu akéhokoľvek pixelu na obrazovke. Zahrnuté sú viaceré bežné palety farieb, ako napríklad štandardné webové farby a farebná schéma Kýslík.</p>
     <p xml:lang="sl">KColorChooser je orodje za barvno paleto, ki se uporablja za mešanje barv in ustvarjanje barvnih palet po meri. S pomočjo kapalke lahko pridobi barvo katerega koli piksla. Vključene so številne običajne barvne palete, na primer standardne spletne barve in barvna shema Oxygen.</p>
+    <p xml:lang="sr">К‑бирач‑боја је алатка за палете боја, која служи за мешање боја и прављење посебних палета. Помоћу капаљке може да добави боју било ког пиксела на екрану. Укључен је и известан број уобичајених палета, као што су стандардне веб боје и шема боја Кисеоника.</p>
+    <p xml:lang="sr-Latn">K‑birač‑boja je alatka za palete boja, koja služi za mešanje boja i pravljenje posebnih paleta. Pomoću kapaljke može da dobavi boju bilo kog piksela na ekranu. Uključen je i izvestan broj uobičajenih paleta, kao što su standardne veb boje i šema boja Kiseonika.</p>
+    <p xml:lang="sr-ijekavian">К‑бирач‑боја је алатка за палете боја, која служи за мијешање боја и прављење посебних палета. Помоћу капаљке може да добави боју било ког пиксела на екрану. Укључен је и извјестан број уобичајених палета, као што су стандардне веб боје и шема боја Кисеоника.</p>
+    <p xml:lang="sr-ijekavianlatin">K‑birač‑boja je alatka za palete boja, koja služi za miješanje boja i pravljenje posebnih paleta. Pomoću kapaljke može da dobavi boju bilo kog piksela na ekranu. Uključen je i izvjestan broj uobičajenih paleta, kao što su standardne veb boje i šema boja Kiseonika.</p>
     <p xml:lang="sv">Färgväljaren är ett färgpalettverktyg, använt för att blanda färger och skapa egna färgpaletter. Genom att använda pipetten kan den hämta färgen på vilken bildpunkt som helst på skärmen. Ett antal vanliga färgpaletter är inkluderade, såsom de standardiserade webbfärgerna och Oxygens färgschema.</p>
     <p xml:lang="tr">K Renkseçer, renkleri karıştırmak ve özel renk paletleri oluşturmak için kullanılan bir renk paleti aracıdır. Damlacığı kullanarak, ekrandaki herhangi bir pikselin rengini alabilir. Birkaç yaygın renk paleti içerilmiştir; örneğin standart Web renkleri ve Oxygen renk şeması.</p>
     <p xml:lang="uk">KColorChooser — інструмент для роботи з палітрами, яким можна скористатися для змішування кольорів і створення нетипових палітр кольорів. За допомогою піпетки програма може отримувати колір з будь-якого пікселя екрана. До складу пакунка включено декілька типових палітр, зокрема стандартні кольори інтернету та кольори теми Oxygen.</p>
