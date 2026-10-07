@@ -106,6 +106,10 @@ int main(int argc, char *argv[])
     dlg.show();
     app.exec();
 
+    if (dlg.result() != QDialog::Accepted) {
+        return 1;
+    }
+
     const QColor c = dlg.currentColor();
     if (parser.isSet(print) && c.isValid()) {
         std::cout << c.name().toUtf8().constData() << std::endl;
