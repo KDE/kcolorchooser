@@ -81,6 +81,7 @@ int main(int argc, char *argv[])
     box->addButton(QDialogButtonBox::Help);
 
     KHelpMenu *help = new KHelpMenu(&dlg, aboutData);
+    help->setShowWhatsThis(false);
     help->menu();
     delete help->action(KHelpMenu::menuHelpContents);
     QObject::connect(box, &QDialogButtonBox::helpRequested, [=]() {
